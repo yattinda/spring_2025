@@ -27,7 +27,7 @@ source .venv/bin/activate
 # 流れ
 1. datasets以下にrawというディレクトリを作成
 1. rawディレクトリに入って好きなGitHubプロジェクトをクローン（Pythonを推奨・それ以外の言語をしたいときはコード変更が必須）
-1. 2_1_extract_python_file.py, 2_3_json_concat.pyをそれぞれ順に実行
+1. 2_1_extract_python_file.py, 2_2_create_dataset.pyをそれぞれ順に実行
 
 
 # 各ファイルの実行例（下段はNumpyでの例）
