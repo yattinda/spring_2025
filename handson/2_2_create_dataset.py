@@ -11,7 +11,7 @@ def create_dataset(correct_python_file):
 
     for file_path in python_files:
         try:
-            with open(file_path, 'r', encoding='shift-jis') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 lines = file.readlines()
                 for line in lines:
                     if any(char.isdigit() for char in line):  # 数値が入っている行を除外
@@ -31,9 +31,9 @@ def create_dataset(correct_python_file):
                 print(f"Skipping file: {file_path} due to encoding error.")
 
     dataset = list(zip(input_data, target_data))
-
     try:
-        with open('../datasets/finetune_data/dataset.json', 'w', encoding='shift-jis') as f:
+        name, _ = os.path.splitext(correct_python_file)
+        with open(os.path.join('../datasets/finetune_data', f'{name}.json'), 'w', encoding='utf-8') as f:
             json.dump(dataset, f, ensure_ascii=False, indent=4)
     except UnicodeEncodeError as e:
         print(f"Skipping writing to dataset.json due to encoding error: {e}")
