@@ -24,31 +24,37 @@ class CodeCompletionDataset(Dataset):
             'labels': torch.tensor(target_ids)
         }
 
-tokenizer = RobertaTokenizer.from_pretrained('Salesforce/codet5-small')
-model = T5ForConditionalGeneration.from_pretrained('Salesforce/codet5-small')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Train a code completion model.")
+    parser.add_argument("file_path", type=str, help="Path to the dataset file.")
+    args = parser.parse_args()
 
-dataset = CodeCompletionDataset('dataset.json', tokenizer)
-data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+    tokenizer = RobertaTokenizer.from_pretrained('Salesforce/codet5-small')
+    model = T5ForConditionalGeneration.from_pretrained('Salesforce/codet5-small')
 
-training_args = TrainingArguments(
-    output_dir='./results',
-    num_train_epochs=3,
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    warmup_steps=500,
-    weight_decay=0.01,
-    logging_dir='./logs',
-)
+    dataset = CodeCompletionDataset(args.file_path, tokenizer)
+    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
-trainer = Trainer(
-    model=model,
-    args=training_args,
-    train_dataset=dataset,
-    data_collator=data_collator
-)
+    training_args = TrainingArguments(
+        output_dir='./results',
+        num_train_epochs=3,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
+        warmup_steps=500,
+        weight_decay=0.01,
+        logging_dir='./logs',
+    )
 
-trainer.train()
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=dataset,
+        data_collator=data_collator
+    )
 
-# モデルを保存する
-model.save_pretrained('./finetuned_codet5_model')
-tokenizer.save_pretrained('./finetuned_codet5_tokenizer')
+    trainer.train()
+
+    # モデルを保存する
+    model.save_pretrained('./finetuned_codet5_model')
+    tokenizer.save_pretrained('./finetuned_codet5_tokenizer')
+
