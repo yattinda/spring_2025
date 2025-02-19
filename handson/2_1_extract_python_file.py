@@ -12,7 +12,7 @@ def list_python_files(directory):
 
 def write_python_files_to_txt(directory, output_file='python_files.txt'):
     python_files = list_python_files(directory)
-    with open(os.path.join('../datasets/correct_python_file/', output_file), 'w') as file:
+    with open(os.path.join('../datasets/collect_python_file/', output_file), 'w') as file:
         for item in python_files:
             file.write("%s\n" % item)
 
