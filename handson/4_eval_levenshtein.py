@@ -25,6 +25,8 @@ def evaluate_model(data):
     average_score = np.mean(scores)
     return average_score
 
+with open('test.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
 
 # Evaluate model
 average_score = evaluate_model(data)
