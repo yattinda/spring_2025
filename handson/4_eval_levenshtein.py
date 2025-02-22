@@ -1,5 +1,6 @@
 import Levenshtein
 import numpy as np
+import json
 from transformers import RobertaTokenizer, T5ForConditionalGeneration
 
 # モデルの定義
@@ -25,7 +26,7 @@ def evaluate_model(data):
     average_score = np.mean(scores)
     return average_score
 
-with open('test.json', 'r', encoding='utf-8') as file:
+with open('../datasets/finetune_data/test.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Evaluate model

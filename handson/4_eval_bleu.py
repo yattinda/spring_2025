@@ -24,7 +24,7 @@ def evaluate_model(data):
     scores_2gram = []
     scores_3gram = []
     scores_4gram = []
-
+    print('calculation...')
     for input_text, reference in data:
         hypothesis = complete_code(input_text)
         scores_1gram.append(calculate_bleu(reference, hypothesis, 1))
@@ -40,7 +40,7 @@ def evaluate_model(data):
     return average_1gram, average_2gram, average_3gram, average_4gram
 
 # test.json ファイルを読み込み
-with open('test.json', 'r', encoding='utf-8') as file:
+with open('../datasets/finetune_data/test.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Evaluate model
