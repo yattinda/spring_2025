@@ -3,9 +3,9 @@ import numpy as np
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from transformers import RobertaTokenizer, T5ForConditionalGeneration
 
-# モデルの定義
-tokenizer = RobertaTokenizer.from_pretrained('Salesforce/codet5-small')
-model = T5ForConditionalGeneration.from_pretrained('Salesforce/codet5-small')
+# モデルの定義['Salesforce/codet5-small' or './finetuned_model']
+tokenizer = RobertaTokenizer.from_pretrained('./checkpoint-590')
+model = T5ForConditionalGeneration.from_pretrained('./checkpoint-590')
 
 def complete_code(input_text, max_length=50):
     input_ids = tokenizer(input_text, return_tensors='pt').input_ids
