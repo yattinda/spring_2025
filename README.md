@@ -20,8 +20,8 @@ source .venv/bin/activate
 |    |--2_2_create_dataset.py(行単位で，入力と正解がセットになったJSONデータセットを生成)
 |    |--2_3_json_concat.py(各プロジェクトごとのデータセットの結合)
 |    |--3_finetune.py
-|    |--
-|    |--
+|    |--4_eval_bleu.py(BLEUの出力, 3-5分程度かかる)
+|    |--4_4_eval_levenshtein.py(levenshteinの出力, 3-5分程度かかる)
 ```
 
 # 流れ
@@ -30,7 +30,7 @@ source .venv/bin/activate
 1. 2_1_extract_python_file.py, 2_2_create_dataset.pyをそれぞれ順に実行
 
 
-# 各ファイルの実行例（下段はNumpyでの例）
+# 各ファイルの実行例（無記載の場合は引数不必要，下段はNumpyでの例）
 ## 1_original.py
 ## 2_1_extract_python_file.py
 ```
@@ -45,7 +45,6 @@ python3 2_2_create_dataset.py <プロジェクト名>.txt
 
 python3 2_2_create_dataset.py numpy.txt   
 ```
-## 2_3_json_concat.py
 ## 3_finetune.py
 ##
 ##
