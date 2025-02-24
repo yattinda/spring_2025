@@ -1,0 +1,3854 @@
+[
+    [
+        "if using_infer_string and dtype == \"object\":",
+        "if using_infer_string and <extra_id_0>"
+    ],
+    [
+        "msg = \"MultiIndex has no single backing array\"",
+        "msg = \"MultiIndex has no single <extra_id_0>"
+    ],
+    [
+        "(pd.Categorical([\"a\", \"b\"]), np.array([\"a\", \"b\"], dtype=object), False),",
+        "(pd.Categorical([\"a\", \"b\"]), np.array([\"a\", \"b\"], dtype=object), <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Unable to avoid copy while creating\"):",
+        "with pytest.raises(ValueError, match=\"Unable to avoid <extra_id_0>"
+    ],
+    [
+        "if using_infer_string and arr.dtype == object and obj.dtype.storage == \"pyarrow\":",
+        "if using_infer_string and arr.dtype == object and <extra_id_0>"
+    ],
+    [
+        "if using_infer_string and arr.dtype == object and obj.dtype.storage == \"pyarrow\":",
+        "if using_infer_string and arr.dtype == <extra_id_0>"
+    ],
+    [
+        "msg = r\"to_numpy\\(\\) got an unexpected keyword argument 'foo'\"",
+        "msg = r\"to_numpy\\(\\) got an unexpected keyword argument <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"dtype, na_value\", [(float, np.nan), (object, None)])",
+        "@pytest.mark.parametrize(\"dtype, na_value\", [(float, np.nan), (object, <extra_id_0>"
+    ],
+    [
+        "pytest.skip(\"type doesn't allow for NA operations\")",
+        "pytest.skip(\"type doesn't allow for <extra_id_0>"
+    ],
+    [
+        "pytest.skip(\"Test doesn't make sense on empty data\")",
+        "pytest.skip(\"Test doesn't make sense <extra_id_0>"
+    ],
+    [
+        "unique_values_not_null = [val for val in unique_values_raw if not pd.isnull(val)]",
+        "unique_values_not_null = [val for val in unique_values_raw <extra_id_0>"
+    ],
+    [
+        "pytest.skip(\"type doesn't allow for NA operations\")",
+        "pytest.skip(\"type doesn't allow for NA <extra_id_0>"
+    ],
+    [
+        "ser = pd.Series([\"yes\", \"yes\", pd.NA, np.nan, None, pd.NaT])",
+        "ser = pd.Series([\"yes\", \"yes\", pd.NA, <extra_id_0>"
+    ],
+    [
+        "mutable_regex = re.compile(\"does not support mutable operations\")",
+        "mutable_regex = re.compile(\"does not support <extra_id_0>"
+    ],
+    [
+        "msg = \"'(_s)?re.(SRE_)?Pattern' object is not callable\"",
+        "msg = \"'(_s)?re.(SRE_)?Pattern' object is <extra_id_0>"
+    ],
+    [
+        "mutable_methods = (\"extend\", \"pop\", \"remove\", \"insert\")",
+        "mutable_methods = (\"extend\", \"pop\", <extra_id_0>"
+    ],
+    [
+        "msg = \"^'str' object cannot be interpreted as an integer$\"",
+        "msg = \"^'str' object cannot be interpreted as <extra_id_0>"
+    ],
+    [
+        "from pandas._libs import index as libindex",
+        "from pandas._libs import index as <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, True, False] * num, dtype=bool)",
+        "expected = np.array([False, True, False] * <extra_id_0>"
+    ],
+    [
+        "arr = np.array([\"a\"] * num + [\"a\"] * num + [\"c\"] * num, dtype=self.dtype)",
+        "arr = np.array([\"a\"] * num + [\"a\"] * num + [\"c\"] * <extra_id_0>"
+    ],
+    [
+        "arr = np.array([\"a\"] * num + [\"b\"] * num + [\"a\"] * num, dtype=self.dtype)",
+        "arr = np.array([\"a\"] * num + [\"b\"] * num + <extra_id_0>"
+    ],
+    [
+        "arr = np.array([\"a\", \"b\", \"a\"], dtype=self.dtype)",
+        "arr = np.array([\"a\", \"b\", \"a\"], <extra_id_0>"
+    ],
+    [
+        "arr = np.array([\"a\"] * num + [\"b\"] * num + [\"c\"] * num, dtype=self.dtype)",
+        "arr = np.array([\"a\"] * num + [\"b\"] * num <extra_id_0>"
+    ],
+    [
+        "arr = np.array(self.values * num, dtype=self.dtype)",
+        "arr = np.array(self.values * num, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, True, False] * num, dtype=bool)",
+        "expected = np.array([False, True, <extra_id_0>"
+    ],
+    [
+        "r\"Index\\(\\.\\.\\.\\) must be called with a collection of some \"",
+        "r\"Index\\(\\.\\.\\.\\) must be called with <extra_id_0>"
+    ],
+    [
+        "r\"DatetimeIndex\\(\\) must be called with a collection of some \"",
+        "r\"DatetimeIndex\\(\\) must be called with <extra_id_0>"
+    ],
+    [
+        "r\"TimedeltaIndex\\(\\) must be called with a collection of some \"",
+        "r\"TimedeltaIndex\\(\\) must be called with a <extra_id_0>"
+    ],
+    [
+        "f\"This method is only implemented for DatetimeIndex, PeriodIndex and \"",
+        "f\"This method is only implemented for DatetimeIndex, PeriodIndex <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"Index.name must be a hashable type\"):",
+        "with pytest.raises(TypeError, match=\"Index.name must be a <extra_id_0>"
+    ],
+    [
+        "rf\"unsupported operand type\\(s\\) for \\*: '{typ}' and 'int'\",",
+        "rf\"unsupported operand type\\(s\\) for \\*: <extra_id_0>"
+    ],
+    [
+        "rf\"unsupported operand type\\(s\\) for \\*: 'int' and '{typ}'\",",
+        "rf\"unsupported operand type\\(s\\) for \\*: 'int' <extra_id_0>"
+    ],
+    [
+        "msg = \"does not support operation '(any|all)'\"",
+        "msg = \"does not <extra_id_0>"
+    ],
+    [
+        "pytest.skip(f\"Not a valid repr for {type(simple_index).__name__}\")",
+        "pytest.skip(f\"Not a valid repr for <extra_id_0>"
+    ],
+    [
+        "pytest.skip(f\"Not a valid repr for {type(simple_index).__name__}\")",
+        "pytest.skip(f\"Not a valid repr for <extra_id_0>"
+    ],
+    [
+        "\"RangeIndex cannot be initialized from data, \"",
+        "\"RangeIndex cannot be initialized <extra_id_0>"
+    ],
+    [
+        "\"MultiIndex and CategoricalIndex are tested separately\"",
+        "\"MultiIndex and CategoricalIndex are tested <extra_id_0>"
+    ],
+    [
+        "elif index.dtype == object and index.inferred_type in [\"boolean\", \"string\"]:",
+        "elif index.dtype == object and index.inferred_type in [\"boolean\", <extra_id_0>"
+    ],
+    [
+        "elif type(index) is Index and not isinstance(index.dtype, np.dtype):",
+        "elif type(index) is Index <extra_id_0>"
+    ],
+    [
+        "isinstance(index.dtype, StringDtype) and index.dtype.storage == \"python\"",
+        "isinstance(index.dtype, StringDtype) and index.dtype.storage <extra_id_0>"
+    ],
+    [
+        "if not isinstance(index, (RangeIndex, IntervalIndex)) and not (",
+        "if not isinstance(index, (RangeIndex, IntervalIndex)) and <extra_id_0>"
+    ],
+    [
+        "type(index) is Index and not isinstance(index.dtype, np.dtype)",
+        "type(index) is Index and not <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'axis' parameter is not supported\"",
+        "msg = \"the 'axis' parameter is not <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'order' parameter is not supported\"",
+        "msg = \"the 'order' parameter is <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'axis' parameter is not supported\"",
+        "msg = \"the 'axis' parameter is not <extra_id_0>"
+    ],
+    [
+        "if isinstance(simple_index, (IntervalIndex, PeriodIndex)) or is_numeric_dtype(",
+        "if isinstance(simple_index, (IntervalIndex, <extra_id_0>"
+    ],
+    [
+        "msg = \"slice indices must be integers or None or have an __index__ method\"",
+        "msg = \"slice indices must be integers or None <extra_id_0>"
+    ],
+    [
+        "index.dtype == \"string\" or index.dtype == \"category\"",
+        "index.dtype == \"string\" or index.dtype <extra_id_0>"
+    ],
+    [
+        "msg = \"loc must be an integer between\"",
+        "msg = \"loc must be an integer <extra_id_0>"
+    ],
+    [
+        "\"loc must be an integer between\",",
+        "\"loc must be an integer <extra_id_0>"
+    ],
+    [
+        "is_ea_idx = type(index) is Index and not isinstance(index.dtype, np.dtype)",
+        "is_ea_idx = type(index) is Index and <extra_id_0>"
+    ],
+    [
+        "if not isinstance(index, RangeIndex) and not is_ea_idx:",
+        "if not isinstance(index, RangeIndex) <extra_id_0>"
+    ],
+    [
+        "msg = \"Lengths must match|could not be broadcast\"",
+        "msg = \"Lengths must match|could not <extra_id_0>"
+    ],
+    [
+        "msg = \"Can only compare identically-labeled Series objects\"",
+        "msg = \"Can only compare <extra_id_0>"
+    ],
+    [
+        "pytest.skip(f\"Not relevant for Index with {index.dtype}\")",
+        "pytest.skip(f\"Not relevant for Index with <extra_id_0>"
+    ],
+    [
+        "msg = \"isna is not defined for MultiIndex\"",
+        "msg = \"isna is <extra_id_0>"
+    ],
+    [
+        "msg = \"'value' must be a scalar, passed: \"",
+        "msg = \"'value' must be <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False] * len(idx), dtype=bool)",
+        "expected = np.array([False] <extra_id_0>"
+    ],
+    [
+        "msg = \"isna is not defined for MultiIndex\"",
+        "msg = \"isna is not defined for <extra_id_0>"
+    ],
+    [
+        "lambda values, index: {i: e for e, i in zip(values, index)},",
+        "lambda values, index: {i: e for <extra_id_0>"
+    ],
+    [
+        "expected = Index([np.nan] * len(idx), dtype=dtype)",
+        "expected = Index([np.nan] * len(idx), <extra_id_0>"
+    ],
+    [
+        "expected = Index([str(x) for x in idx])",
+        "expected = Index([str(x) for <extra_id_0>"
+    ],
+    [
+        "def test_astype_category(self, copy, name, ordered, simple_index):",
+        "def test_astype_category(self, copy, name, ordered, <extra_id_0>"
+    ],
+    [
+        "msg = \"ufunc 'invert' not supported for the input types\"",
+        "msg = \"ufunc 'invert' not supported <extra_id_0>"
+    ],
+    [
+        "msg = \"bad operand|__invert__ is not supported for string dtype\"",
+        "msg = \"bad operand|__invert__ is not <extra_id_0>"
+    ],
+    [
+        "\"Cannot change data-type for array of references.|\"",
+        "\"Cannot change data-type for array <extra_id_0>"
+    ],
+    [
+        "\"Cannot change data-type for object array.|\"",
+        "\"Cannot change data-type for object <extra_id_0>"
+    ],
+    [
+        "assert type(result) is Index and result.dtype == complex_dtype",
+        "assert type(result) is Index and result.dtype == <extra_id_0>"
+    ],
+    [
+        "pytest.skip(\"casting of strings not relevant for RangeIndex\")",
+        "pytest.skip(\"casting of strings not <extra_id_0>"
+    ],
+    [
+        "dtype = object if not using_infer_string else \"str\"",
+        "dtype = object if not using_infer_string <extra_id_0>"
+    ],
+    [
+        "err = tz_naive_fixture is not None",
+        "err = tz_naive_fixture <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot use .astype to convert from timezone-naive dtype to\"",
+        "msg = \"Cannot use .astype to convert from <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"value\", [[], iter([]), (_ for _ in [])])",
+        "@pytest.mark.parametrize(\"value\", [[], iter([]), (_ for <extra_id_0>"
+    ],
+    [
+        "(PeriodIndex((_ for _ in []), freq=\"D\"), PeriodIndex),",
+        "(PeriodIndex((_ for _ in []), freq=\"D\"), <extra_id_0>"
+    ],
+    [
+        "msg = \"When changing to a larger dtype\"",
+        "msg = \"When changing to a <extra_id_0>"
+    ],
+    [
+        "r\"Cannot change data-type for array of references\\.|\"",
+        "r\"Cannot change data-type for <extra_id_0>"
+    ],
+    [
+        "r\"Cannot change data-type for object array\\.|\"",
+        "r\"Cannot change data-type for <extra_id_0>"
+    ],
+    [
+        "r\"Cannot change data-type for array of strings\\.|\"",
+        "r\"Cannot change data-type for array of <extra_id_0>"
+    ],
+    [
+        "assert Index([\"a\", \"b\", \"c\"]).equals(Index([\"a\", \"b\", \"c\"]))",
+        "assert Index([\"a\", \"b\", \"c\"]).equals(Index([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "\"comp\", [Index([\"a\", \"b\"]), Index([\"a\", \"b\", \"d\"]), [\"a\", \"b\", \"c\"]]",
+        "\"comp\", [Index([\"a\", \"b\"]), Index([\"a\", \"b\", \"d\"]), [\"a\", <extra_id_0>"
+    ],
+    [
+        "def test_empty_fancy(self, index, dtype, request, using_infer_string):",
+        "def test_empty_fancy(self, index, dtype, request, <extra_id_0>"
+    ],
+    [
+        "if dtype is np.bool_ and using_infer_string and index.dtype == \"string\":",
+        "if dtype is np.bool_ and using_infer_string <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"length of the boolean indexer\"):",
+        "with pytest.raises(ValueError, match=\"length of the <extra_id_0>"
+    ],
+    [
+        "msg = r\"arrays used as indices must be of integer\"",
+        "msg = r\"arrays used as <extra_id_0>"
+    ],
+    [
+        "expected = Index([(i,) for i in index])",
+        "expected = Index([(i,) for <extra_id_0>"
+    ],
+    [
+        "lambda values, index: {i: e for e, i in zip(values, index)},",
+        "lambda values, index: {i: e for e, i in zip(values, <extra_id_0>"
+    ],
+    [
+        "lambda values, index: {i: e for e, i in zip(values, index)},",
+        "lambda values, index: {i: e for e, i in zip(values, <extra_id_0>"
+    ],
+    [
+        "elif type(index) is Index and index.dtype != object:",
+        "elif type(index) is Index and index.dtype <extra_id_0>"
+    ],
+    [
+        "if using_infer_string and index.dtype == \"string\" and expected:",
+        "if using_infer_string and index.dtype <extra_id_0>"
+    ],
+    [
+        "[[\"a\", \"b\", (\"c\", \"d\")], [\"a\", (\"c\", \"d\"), \"b\"], [(\"c\", \"d\"), \"a\", \"b\"]],",
+        "[[\"a\", \"b\", (\"c\", \"d\")], [\"a\", (\"c\", \"d\"), \"b\"], [(\"c\", \"d\"), <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"to_drop\", [[(\"c\", \"d\"), \"a\"], [\"a\", (\"c\", \"d\")]])",
+        "@pytest.mark.parametrize(\"to_drop\", [[(\"c\", \"d\"), \"a\"], <extra_id_0>"
+    ],
+    [
+        "pytest.skip(\"Test doesn't make sense for empty MultiIndex\")",
+        "pytest.skip(\"Test doesn't make sense for empty <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"values\", [[\"foo\", \"bar\", \"quux\"], {\"foo\", \"bar\", \"quux\"}])",
+        "@pytest.mark.parametrize(\"values\", [[\"foo\", \"bar\", \"quux\"], {\"foo\", <extra_id_0>"
+    ],
+    [
+        "([\"qux\", \"baz\", \"foo\", \"bar\"], [False, False, True, True]),",
+        "([\"qux\", \"baz\", \"foo\", \"bar\"], [False, False, <extra_id_0>"
+    ],
+    [
+        "elif using_infer_string and idx.dtype == \"string\":",
+        "elif using_infer_string and <extra_id_0>"
+    ],
+    [
+        "if nulls_fixture is pd.NaT or nulls_fixture is pd.NA:",
+        "if nulls_fixture is pd.NaT <extra_id_0>"
+    ],
+    [
+        "r\"float\\(\\) argument must be a string or a (real )?number, \"",
+        "r\"float\\(\\) argument must be a string or a (real <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, False, True, True])",
+        "expected = np.array([False, False, True, <extra_id_0>"
+    ],
+    [
+        "msg = f\"'Level {label} not found'\"",
+        "msg = f\"'Level {label} not <extra_id_0>"
+    ],
+    [
+        "msg = rf\"Requested level \\({label}\\) does not match index name \\(foo\\)\"",
+        "msg = rf\"Requested level \\({label}\\) does not match <extra_id_0>"
+    ],
+    [
+        "expected = np.array([True, True, True, True], dtype=bool)",
+        "expected = np.array([True, True, True, True], <extra_id_0>"
+    ],
+    [
+        "\"func\", [np.isfinite, np.isinf, np.isnan, np.signbit], ids=lambda x: x.__name__",
+        "\"func\", [np.isfinite, np.isinf, np.isnan, np.signbit], ids=lambda <extra_id_0>"
+    ],
+    [
+        "if func in (np.isfinite, np.isinf, np.isnan):",
+        "if func in (np.isfinite, np.isinf, <extra_id_0>"
+    ],
+    [
+        "pytest.skip(\"Test doesn't make sense for empty index.\")",
+        "pytest.skip(\"Test doesn't make sense for <extra_id_0>"
+    ],
+    [
+        "if isinstance(index, CategoricalIndex) and index.dtype.ordered is False:",
+        "if isinstance(index, CategoricalIndex) and index.dtype.ordered is <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"is not ordered for\"):",
+        "with pytest.raises(TypeError, match=\"is not <extra_id_0>"
+    ],
+    [
+        "def test_constructor(self, args, kwargs, start, stop, step, name):",
+        "def test_constructor(self, args, kwargs, start, stop, <extra_id_0>"
+    ],
+    [
+        "assert result._range == range(start, stop, step)",
+        "assert result._range == range(start, stop, <extra_id_0>"
+    ],
+    [
+        "msg = \"RangeIndex\\\\(\\\\.\\\\.\\\\.\\\\) must be called with integers\"",
+        "msg = \"RangeIndex\\\\(\\\\.\\\\.\\\\.\\\\) must be called <extra_id_0>"
+    ],
+    [
+        "r\"Index\\(\\.\\.\\.\\) must be called with a collection of some \"",
+        "r\"Index\\(\\.\\.\\.\\) must be called with a collection <extra_id_0>"
+    ],
+    [
+        "msg = f\"Value needs to be a scalar value, was type {type(args).__name__}\"",
+        "msg = f\"Value needs to be a <extra_id_0>"
+    ],
+    [
+        "msg = f\"Wrong type {type(args)} for value {args}\"",
+        "msg = f\"Wrong type {type(args)} for value <extra_id_0>"
+    ],
+    [
+        "r\"(RangeIndex.)?from_range\\(\\) got an unexpected keyword argument( 'copy')?\"",
+        "r\"(RangeIndex.)?from_range\\(\\) got an unexpected <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=r\"Wrong type \\<class 'str'\\>\"):",
+        "with pytest.raises(TypeError, match=r\"Wrong <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=r\"Wrong type \\<class 'float'\\>\"):",
+        "with pytest.raises(TypeError, match=r\"Wrong type <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"outer\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, how=\"outer\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"outer\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, how=\"outer\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"inner\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, how=\"inner\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"inner\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"left\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, how=\"left\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"left\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"right\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, how=\"right\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"right\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, return_indexers=True)",
+        "res, lidx, ridx = index.join(other, <extra_id_0>"
+    ],
+    [
+        "\"left, right, expected, expected_lidx, expected_ridx, how\",",
+        "\"left, right, expected, expected_lidx, expected_ridx, <extra_id_0>"
+    ],
+    [
+        "\"right_type\", [RangeIndex, lambda x: Index(list(x), dtype=x.dtype)]",
+        "\"right_type\", [RangeIndex, lambda x: Index(list(x), <extra_id_0>"
+    ],
+    [
+        "left, right, expected, expected_lidx, expected_ridx, how, right_type",
+        "left, right, expected, expected_lidx, expected_ridx, <extra_id_0>"
+    ],
+    [
+        "result, lidx, ridx = left.join(right_type(right), how=how, return_indexers=True)",
+        "result, lidx, ridx = left.join(right_type(right), how=how, <extra_id_0>"
+    ],
+    [
+        "msg = \"Unable to fill values because RangeIndex cannot contain NA\"",
+        "msg = \"Unable to fill values because RangeIndex <extra_id_0>"
+    ],
+    [
+        "msg = \"Unable to fill values because RangeIndex cannot contain NA\"",
+        "msg = \"Unable to fill values because RangeIndex <extra_id_0>"
+    ],
+    [
+        "mask = np.array([True, True, False, False, False])",
+        "mask = np.array([True, True, False, False, <extra_id_0>"
+    ],
+    [
+        "ids=lambda x: repr(x) if isinstance(x, RangeIndex) else x,",
+        "ids=lambda x: repr(x) if isinstance(x, RangeIndex) else <extra_id_0>"
+    ],
+    [
+        "def test_start_stop_step_attrs(self, index, start, stop, step):",
+        "def test_start_stop_step_attrs(self, index, <extra_id_0>"
+    ],
+    [
+        "for na in [np.nan, None, pd.NA]:",
+        "for na in <extra_id_0>"
+    ],
+    [
+        "msg = f\"Wrong type {type(start)} for value {start}\"",
+        "msg = f\"Wrong type {type(start)} for <extra_id_0>"
+    ],
+    [
+        "\"Cannot change data-type for array of references.|\"",
+        "\"Cannot change data-type for array of <extra_id_0>"
+    ],
+    [
+        "\"Cannot change data-type for object array.|\"",
+        "\"Cannot change data-type for object <extra_id_0>"
+    ],
+    [
+        "result = ri[[True, True, False, True]]",
+        "result = ri[[True, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(IndexError, match=\"Boolean index has wrong length\"):",
+        "with pytest.raises(IndexError, match=\"Boolean index has <extra_id_0>"
+    ],
+    [
+        "assert getattr(ri, meth)() == getattr(idx, meth)()",
+        "assert getattr(ri, meth)() == getattr(idx, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=f\"attempt to get {meth} of an empty sequence\"):",
+        "with pytest.raises(ValueError, match=f\"attempt to get {meth} of an empty <extra_id_0>"
+    ],
+    [
+        "def test_value_counts(sort, dropna, ascending, normalize, rng):",
+        "def test_value_counts(sort, dropna, <extra_id_0>"
+    ],
+    [
+        "r\"Index\\(\\.\\.\\.\\) must be called with a collection of some \"",
+        "r\"Index\\(\\.\\.\\.\\) must be called with <extra_id_0>"
+    ],
+    [
+        "msg = \"could not convert string to float\"",
+        "msg = \"could not convert string <extra_id_0>"
+    ],
+    [
+        "from pandas._libs import index as libindex",
+        "from pandas._libs import index as <extra_id_0>"
+    ],
+    [
+        "def test_get_slice_bounds_outside(self, side, expected, data, bound):",
+        "def test_get_slice_bounds_outside(self, side, expected, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Invalid value for side kwarg\"):",
+        "with pytest.raises(ValueError, match=\"Invalid value for <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, False, True, False, False, True])",
+        "expected = np.array([False, False, True, False, <extra_id_0>"
+    ],
+    [
+        "ser = pd.Series([True, False, pd.NA], dtype=\"boolean\")",
+        "ser = pd.Series([True, False, pd.NA], <extra_id_0>"
+    ],
+    [
+        "assert result._left.base is None or result._left.base is not result._right.base",
+        "assert result._left.base is None or result._left.base is not <extra_id_0>"
+    ],
+    [
+        "def test_constructor_numeric(self, closed, name, freq, periods):",
+        "def test_constructor_numeric(self, closed, name, <extra_id_0>"
+    ],
+    [
+        "def test_constructor_timestamp(self, closed, name, freq, periods, tz):",
+        "def test_constructor_timestamp(self, closed, name, freq, <extra_id_0>"
+    ],
+    [
+        "def test_constructor_timedelta(self, closed, name, freq, periods):",
+        "def test_constructor_timedelta(self, closed, name, freq, <extra_id_0>"
+    ],
+    [
+        "def test_early_truncation(self, start, end, freq, expected_endpoint):",
+        "def test_early_truncation(self, start, end, <extra_id_0>"
+    ],
+    [
+        "\"Of the four parameters: start, end, periods, and freq, \"",
+        "\"Of the four parameters: start, end, periods, and <extra_id_0>"
+    ],
+    [
+        "msg = \"start, end, freq need to be type compatible\"",
+        "msg = \"start, end, freq need to be <extra_id_0>"
+    ],
+    [
+        "msg = \"periods must be an integer, got foo\"",
+        "msg = \"periods must be <extra_id_0>"
+    ],
+    [
+        "msg = \"start must be numeric or datetime-like, got foo\"",
+        "msg = \"start must be numeric or datetime-like, got <extra_id_0>"
+    ],
+    [
+        "msg = \"freq must be numeric or convertible to DateOffset, got foo\"",
+        "msg = \"freq must be numeric or convertible to <extra_id_0>"
+    ],
+    [
+        "msg = \"Start and end cannot both be tz-aware with different timezones\"",
+        "msg = \"Start and end cannot both be tz-aware with different <extra_id_0>"
+    ],
+    [
+        "Interval(left, right, closed) if notna(left) else np.nan",
+        "Interval(left, right, closed) if notna(left) <extra_id_0>"
+    ],
+    [
+        "for left, right in zip(expected_left, expected_right)",
+        "for left, right in <extra_id_0>"
+    ],
+    [
+        "expected = Index(iv.length for iv in index)",
+        "expected = Index(iv.length for iv <extra_id_0>"
+    ],
+    [
+        "expected = Index(iv.length if notna(iv) else iv for iv in index)",
+        "expected = Index(iv.length if notna(iv) else <extra_id_0>"
+    ],
+    [
+        "msg = \"can only insert Interval objects and NA into an IntervalArray\"",
+        "msg = \"can only insert Interval objects <extra_id_0>"
+    ],
+    [
+        "msg = \"'value.closed' is 'left', expected 'right'.\"",
+        "msg = \"'value.closed' is 'left', <extra_id_0>"
+    ],
+    [
+        "for closed in {\"left\", \"right\", \"both\", \"neither\"} - {item.closed}:",
+        "for closed in {\"left\", \"right\", <extra_id_0>"
+    ],
+    [
+        "msg = f\"'value.closed' is '{closed}', expected '{item.closed}'.\"",
+        "msg = f\"'value.closed' is <extra_id_0>"
+    ],
+    [
+        "for na in [np.nan, None, pd.NA]:",
+        "for na in [np.nan, None, <extra_id_0>"
+    ],
+    [
+        "if data.left.dtype.kind not in [\"m\", \"M\"]:",
+        "if data.left.dtype.kind not <extra_id_0>"
+    ],
+    [
+        "msg = \"can only insert Interval objects and NA into an IntervalArray\"",
+        "msg = \"can only insert Interval objects <extra_id_0>"
+    ],
+    [
+        "for other_closed in {\"left\", \"right\", \"both\", \"neither\"} - {closed}:",
+        "for other_closed in {\"left\", \"right\", \"both\", \"neither\"} - <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"multi-dimensional indexing not allowed\"):",
+        "with pytest.raises(ValueError, match=\"multi-dimensional indexing not <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"multi-dimensional indexing not allowed\"):",
+        "with pytest.raises(ValueError, match=\"multi-dimensional indexing not <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"multi-dimensional indexing not allowed\"):",
+        "with pytest.raises(ValueError, match=\"multi-dimensional <extra_id_0>"
+    ],
+    [
+        "def test_get_loc_length_one_interval(self, left, right, closed, other_closed):",
+        "def test_get_loc_length_one_interval(self, left, right, closed, <extra_id_0>"
+    ],
+    [
+        "for key in [None, np.nan, NA]:",
+        "for key in [None, <extra_id_0>"
+    ],
+    [
+        "\"cannot handle overlapping indices; use \"",
+        "\"cannot handle overlapping indices; <extra_id_0>"
+    ],
+    [
+        "'\"Cannot get left slice bound for non-unique label: '",
+        "'\"Cannot get left slice bound <extra_id_0>"
+    ],
+    [
+        "'\"Cannot get left slice bound for non-unique label: '",
+        "'\"Cannot get left slice bound for non-unique label: <extra_id_0>"
+    ],
+    [
+        "'\"Cannot get right slice bound for non-unique label: '",
+        "'\"Cannot get right slice bound for non-unique <extra_id_0>"
+    ],
+    [
+        "'\"Cannot get right slice bound for non-unique label: '",
+        "'\"Cannot get right slice bound for non-unique label: <extra_id_0>"
+    ],
+    [
+        "\"'can only get slices from an IntervalIndex if bounds are \"",
+        "\"'can only get slices from an IntervalIndex if bounds are <extra_id_0>"
+    ],
+    [
+        "\"non-overlapping and all monotonic increasing or decreasing'\"",
+        "\"non-overlapping and all monotonic <extra_id_0>"
+    ],
+    [
+        "msg = \"^(?!(left side of interval must be <= right side))\"",
+        "msg = \"^(?!(left side of interval <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot convert .* to .*; subtypes are incompatible\"",
+        "msg = \"Cannot convert .* to .*; subtypes are <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot convert .* to .*; subtypes are incompatible\"",
+        "msg = \"Cannot convert .* to .*; subtypes are <extra_id_0>"
+    ],
+    [
+        "def test_repr_missing(self, constructor, expected, using_infer_string, request):",
+        "def test_repr_missing(self, constructor, expected, <extra_id_0>"
+    ],
+    [
+        "if using_infer_string and constructor is Series:",
+        "if using_infer_string and constructor <extra_id_0>"
+    ],
+    [
+        "for other_closed in {\"right\", \"left\", \"both\", \"neither\"} - {closed}:",
+        "for other_closed in {\"right\", \"left\", \"both\", <extra_id_0>"
+    ],
+    [
+        "assert [level.name for level in index.levels] == list(names)",
+        "assert [level.name for level in index.levels] <extra_id_0>"
+    ],
+    [
+        "assert [level.name for level in idx.levels] == [\"first\", \"second\"]",
+        "assert [level.name for level in <extra_id_0>"
+    ],
+    [
+        "new_names = [name + \"a\" for name in idx.names]",
+        "new_names = [name + \"a\" for <extra_id_0>"
+    ],
+    [
+        "shallow_copy.names = [name + \"c\" for name in shallow_copy.names]",
+        "shallow_copy.names = [name + \"c\" <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"MultiIndex.name must be a hashable type\"):",
+        "with pytest.raises(TypeError, match=\"MultiIndex.name must be <extra_id_0>"
+    ],
+    [
+        "level_names = [level.name for level in idx.levels]",
+        "level_names = [level.name for <extra_id_0>"
+    ],
+    [
+        "level_names = [level.name for level in index.levels]",
+        "level_names = [level.name for level <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"name foo occurs multiple times\"):",
+        "with pytest.raises(ValueError, match=\"name foo occurs multiple <extra_id_0>"
+    ],
+    [
+        "({\"x\": \"z\", \"y\": \"x\"}, [\"z\", \"x\", \"z\"]),",
+        "({\"x\": \"z\", \"y\": \"x\"}, [\"z\", <extra_id_0>"
+    ],
+    [
+        "({\"y\": \"z\", \"a\": \"b\"}, [\"x\", \"z\", \"x\"]),",
+        "({\"y\": \"z\", \"a\": \"b\"}, <extra_id_0>"
+    ],
+    [
+        "({\"x\": \"z\", \"y\": \"x\"}, [\"z\", \"x\"]),",
+        "({\"x\": \"z\", \"y\": \"x\"}, [\"z\", <extra_id_0>"
+    ],
+    [
+        "msg = \"Can only pass dict-like as `names` for MultiIndex.\"",
+        "msg = \"Can only pass dict-like as `names` for <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"Can not pass level for dictlike `names`.\"):",
+        "with pytest.raises(TypeError, match=\"Can not pass level for dictlike <extra_id_0>"
+    ],
+    [
+        "major_axis = Index([\"foo\", \"bar\", \"baz\", \"qux\"])",
+        "major_axis = Index([\"foo\", \"bar\", \"baz\", <extra_id_0>"
+    ],
+    [
+        "expected = Index([\"foo\", \"bar\", \"baz\", \"qux\"], name=\"first\")",
+        "expected = Index([\"foo\", \"bar\", \"baz\", \"qux\"], <extra_id_0>"
+    ],
+    [
+        "msg = \"non-zero number of levels/codes\"",
+        "msg = \"non-zero number of <extra_id_0>"
+    ],
+    [
+        "msg = \"Must pass both levels and codes\"",
+        "msg = \"Must pass both levels and <extra_id_0>"
+    ],
+    [
+        "msg = r\"MultiIndex\\.name must be a hashable type\"",
+        "msg = r\"MultiIndex\\.name must be a hashable <extra_id_0>"
+    ],
+    [
+        "msg = \"Length of levels and codes must be the same\"",
+        "msg = \"Length of levels and <extra_id_0>"
+    ],
+    [
+        "\"NOTE: this index is in an inconsistent state\"",
+        "\"NOTE: this index is <extra_id_0>"
+    ],
+    [
+        "mi = MultiIndex(levels=[levels, levels], codes=[codes, codes], copy=True)",
+        "mi = MultiIndex(levels=[levels, levels], codes=[codes, <extra_id_0>"
+    ],
+    [
+        "for lev, level_codes in zip(idx.levels, idx.codes)",
+        "for lev, level_codes <extra_id_0>"
+    ],
+    [
+        "for lev, level_codes in zip(idx.levels, idx.codes)",
+        "for lev, level_codes <extra_id_0>"
+    ],
+    [
+        "msg = \"Input must be a list / sequence of array-likes.\"",
+        "msg = \"Input must be a list <extra_id_0>"
+    ],
+    [
+        "for lev, level_codes in zip(idx.levels, idx.codes)",
+        "for lev, level_codes in <extra_id_0>"
+    ],
+    [
+        "msg = \"Must pass non-zero number of levels/codes\"",
+        "msg = \"Must pass non-zero number <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex(levels=[[]] * N, codes=[[]] * N, names=names)",
+        "expected = MultiIndex(levels=[[]] * N, <extra_id_0>"
+    ],
+    [
+        "msg = \"Input must be a list / sequence of array-likes\"",
+        "msg = \"Input must be a list / <extra_id_0>"
+    ],
+    [
+        "msg = \"^all arrays must be same length$\"",
+        "msg = \"^all arrays must <extra_id_0>"
+    ],
+    [
+        "b = Series([\"a\", \"b\", \"c\"], name=\"bar\")",
+        "b = Series([\"a\", \"b\", \"c\"], <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot infer number of levels from empty list\"",
+        "msg = \"Cannot infer number of levels from empty <extra_id_0>"
+    ],
+    [
+        "msg = \"Input must be a list / sequence of tuple-likes.\"",
+        "msg = \"Input must be a list / <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex.from_arrays(arrays=[[], []], names=[\"a\", \"b\"])",
+        "expected = MultiIndex.from_arrays(arrays=[[], <extra_id_0>"
+    ],
+    [
+        "msg = \"Names should be list-like for a MultiIndex\"",
+        "msg = \"Names should be list-like for a <extra_id_0>"
+    ],
+    [
+        "msg = \"Must pass non-zero number of levels/codes\"",
+        "msg = \"Must pass non-zero <extra_id_0>"
+    ],
+    [
+        "\"first, second\", [([], []), ([\"foo\", \"bar\", \"baz\"], []), ([], [\"a\", \"b\", \"c\"])]",
+        "\"first, second\", [([], []), ([\"foo\", \"bar\", \"baz\"], []), ([], [\"a\", <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex(levels=[first, second], codes=[[], []], names=names)",
+        "expected = MultiIndex(levels=[first, second], <extra_id_0>"
+    ],
+    [
+        "msg = r\"Input must be a list / sequence of iterables|Input must be list-like\"",
+        "msg = r\"Input must be a list <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"f\", [lambda x: x, lambda x: Series(x), lambda x: x.values])",
+        "@pytest.mark.parametrize(\"f\", [lambda x: x, lambda x: Series(x), <extra_id_0>"
+    ],
+    [
+        "msg = \"Input must be a list / sequence of iterables.\"",
+        "msg = \"Input must be a list <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"Input must be a DataFrame\"):",
+        "with pytest.raises(TypeError, match=\"Input must be a <extra_id_0>"
+    ],
+    [
+        "\"b\": pd.Categorical([\"a\", \"a\", \"b\", \"b\", \"c\", \"c\"], ordered=True),",
+        "\"b\": pd.Categorical([\"a\", \"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "\"c\": [\"x\", \"x\", \"y\", \"z\", \"x\", \"y\"],",
+        "\"c\": [\"x\", \"x\", \"y\", \"z\", <extra_id_0>"
+    ],
+    [
+        "pd.Categorical([\"a\", \"a\", \"b\", \"b\", \"c\", \"c\"], ordered=True),",
+        "pd.Categorical([\"a\", \"a\", \"b\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "[\"x\", \"x\", \"y\", \"z\", \"x\", \"y\"],",
+        "[\"x\", \"x\", \"y\", <extra_id_0>"
+    ],
+    [
+        "mi_dtypes = {name: mi.levels[i].dtype for i, name in enumerate(mi.names)}",
+        "mi_dtypes = {name: mi.levels[i].dtype for <extra_id_0>"
+    ],
+    [
+        "[[\"a\", \"a\"], [\"a\", \"b\"], [\"b\", \"a\"], [\"b\", \"b\"]],",
+        "[[\"a\", \"a\"], [\"a\", \"b\"], [\"b\", \"a\"], [\"b\", <extra_id_0>"
+    ],
+    [
+        "(\"bad_input\", \"Names should be list-like for a MultiIndex\"),",
+        "(\"bad_input\", \"Names should be list-like <extra_id_0>"
+    ],
+    [
+        "([\"a\", \"b\", \"c\"], \"Length of names must match number of levels in MultiIndex\"),",
+        "([\"a\", \"b\", \"c\"], \"Length of names must match <extra_id_0>"
+    ],
+    [
+        "[[\"a\", \"a\"], [\"a\", \"b\"], [\"b\", \"a\"], [\"b\", \"b\"]],",
+        "[[\"a\", \"a\"], [\"a\", \"b\"], [\"b\", \"a\"], <extra_id_0>"
+    ],
+    [
+        "a = MultiIndex(levels=[[], []], codes=[[], []], names=[\"a\", \"b\"])",
+        "a = MultiIndex(levels=[[], []], codes=[[], []], <extra_id_0>"
+    ],
+    [
+        "b = MultiIndex.from_arrays(arrays=[[], []], names=[\"a\", \"b\"])",
+        "b = MultiIndex.from_arrays(arrays=[[], []], <extra_id_0>"
+    ],
+    [
+        "mi = MultiIndex.from_tuples([(x,) for x in arr])",
+        "mi = MultiIndex.from_tuples([(x,) for <extra_id_0>"
+    ],
+    [
+        "exp = \"object\" if not using_infer_string else pd.StringDtype(na_value=np.nan)",
+        "exp = \"object\" if not using_infer_string else <extra_id_0>"
+    ],
+    [
+        "msg = \"isna is not defined for MultiIndex\"",
+        "msg = \"isna is <extra_id_0>"
+    ],
+    [
+        "msg = \"invalid how option: xxx\"",
+        "msg = \"invalid how option: <extra_id_0>"
+    ],
+    [
+        "msg = \"isna is not defined for MultiIndex\"",
+        "msg = \"isna is not defined <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.xfail(reason=\"isna is not defined for MultiIndex\")",
+        "@pytest.mark.xfail(reason=\"isna is not defined <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False] * len(index), dtype=bool)",
+        "expected = np.array([False] * len(index), <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False] * len(index), dtype=bool)",
+        "expected = np.array([False] * <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"Must pass both levels and codes\"):",
+        "with pytest.raises(TypeError, match=\"Must pass both levels <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'axis' parameter is not supported\"",
+        "msg = \"the 'axis' <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'kind' parameter is not supported\"",
+        "msg = \"the 'kind' parameter <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'order' parameter is not supported\"",
+        "msg = \"the 'order' parameter is <extra_id_0>"
+    ],
+    [
+        "[(\"z\", \"a\"), (\"x\", \"a\"), (\"y\", \"b\"), (\"x\", \"b\"), (\"y\", \"a\"), (\"z\", \"b\")],",
+        "[(\"z\", \"a\"), (\"x\", \"a\"), (\"y\", \"b\"), (\"x\", \"b\"), (\"y\", \"a\"), <extra_id_0>"
+    ],
+    [
+        "\"MultiIndex slicing requires the index to be lexsorted: \"",
+        "\"MultiIndex slicing requires the index <extra_id_0>"
+    ],
+    [
+        "[(\"z\", \"a\"), (\"x\", \"a\"), (\"y\", \"b\"), (\"x\", \"b\"), (\"y\", \"a\"), (\"z\", \"b\")],",
+        "[(\"z\", \"a\"), (\"x\", \"a\"), (\"y\", \"b\"), <extra_id_0>"
+    ],
+    [
+        "match = \"'<' not supported between instances of 'Timestamp' and 'int'\"",
+        "match = \"'<' not supported between instances <extra_id_0>"
+    ],
+    [
+        "expected = Index([\"foo\", \"foo\", \"bar\", \"baz\", \"qux\", \"qux\"], name=\"first\")",
+        "expected = Index([\"foo\", \"foo\", \"bar\", \"baz\", \"qux\", \"qux\"], <extra_id_0>"
+    ],
+    [
+        "exp = CategoricalIndex([\"A\", \"A\", \"A\", \"B\", \"B\", \"B\"])",
+        "exp = CategoricalIndex([\"A\", \"A\", <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"other\", [[\"three\", \"one\", \"two\"], [\"one\"], [\"one\", \"three\"]])",
+        "@pytest.mark.parametrize(\"other\", [[\"three\", \"one\", \"two\"], <extra_id_0>"
+    ],
+    [
+        "jidx, lidx, ridx = midx.join(idx, how=\"inner\", return_indexers=True)",
+        "jidx, lidx, ridx = midx.join(idx, <extra_id_0>"
+    ],
+    [
+        "jidx, ridx, lidx = idx.join(midx, how=\"inner\", return_indexers=True)",
+        "jidx, ridx, lidx = <extra_id_0>"
+    ],
+    [
+        "jidx, lidx, ridx = midx.join(idx, how=\"left\", return_indexers=True)",
+        "jidx, lidx, ridx = midx.join(idx, <extra_id_0>"
+    ],
+    [
+        "jidx, ridx, lidx = idx.join(midx, how=\"right\", return_indexers=True)",
+        "jidx, ridx, lidx = idx.join(midx, <extra_id_0>"
+    ],
+    [
+        "idx_copy = idx.copy(**{kwarg: value, \"deep\": deep})",
+        "idx_copy = idx.copy(**{kwarg: value, <extra_id_0>"
+    ],
+    [
+        "from pandas._libs import index as libindex",
+        "from pandas._libs import index as <extra_id_0>"
+    ],
+    [
+        "msg = r\"take\\(\\) got an unexpected keyword argument 'foo'\"",
+        "msg = r\"take\\(\\) got an <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'out' parameter is not supported\"",
+        "msg = \"the 'out' parameter is <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'mode' parameter is not supported\"",
+        "msg = \"the 'mode' parameter <extra_id_0>"
+    ],
+    [
+        "msg = \"isna is not defined for MultiIndex\"",
+        "msg = \"isna is not <extra_id_0>"
+    ],
+    [
+        "df = pd.DataFrame({\"a\": r, \"b\": r}, index=MultiIndex.from_arrays([r, r]))",
+        "df = pd.DataFrame({\"a\": r, <extra_id_0>"
+    ],
+    [
+        "msg = \"'Series' object has no attribute 'foo'\"",
+        "msg = \"'Series' object has no attribute <extra_id_0>"
+    ],
+    [
+        "mutable_regex = re.compile(\"does not support mutable operations\")",
+        "mutable_regex = re.compile(\"does not <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"assignment destination is read-only\"):",
+        "with pytest.raises(ValueError, match=\"assignment <extra_id_0>"
+    ],
+    [
+        "msg = \"Item must have length equal to number of levels\"",
+        "msg = \"Item must have length equal to number of <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"name, exp\", [(\"b\", \"b\"), (\"c\", None)])",
+        "@pytest.mark.parametrize(\"name, exp\", [(\"b\", \"b\"), (\"c\", <extra_id_0>"
+    ],
+    [
+        "\"This method is only implemented for DatetimeIndex, PeriodIndex and \"",
+        "\"This method is only implemented for DatetimeIndex, <extra_id_0>"
+    ],
+    [
+        "exp = {key: [key] for key in idx}",
+        "exp = {key: [key] for key in <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'axis' parameter is not supported\"",
+        "msg = \"the 'axis' parameter is not <extra_id_0>"
+    ],
+    [
+        "[\"a\", \"b\", \"c\", \"a\", \"b\", \"c\"],",
+        "[\"a\", \"b\", \"c\", \"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "[\"a\", \"b\", \"c\", \"x\", \"y\", \"z\"],",
+        "[\"a\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot perform __sub__ with this index type: MultiIndex\"",
+        "msg = \"cannot perform __sub__ with this index <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot perform __rsub__ with this index type: MultiIndex\"",
+        "msg = \"cannot perform __rsub__ with this <extra_id_0>"
+    ],
+    [
+        "lambda values, idx: {i: e for e, i in zip(values, idx)},",
+        "lambda values, idx: {i: e for e, <extra_id_0>"
+    ],
+    [
+        "f\"ufunc '{func.__name__}' not supported for the input types, and the inputs \"",
+        "f\"ufunc '{func.__name__}' not supported for the <extra_id_0>"
+    ],
+    [
+        "\"could not be safely coerced to any supported types according to \"",
+        "\"could not be safely coerced to any supported <extra_id_0>"
+    ],
+    [
+        "msg = \"Input must be a list-like of list-likes\"",
+        "msg = \"Input must be a list-like of <extra_id_0>"
+    ],
+    [
+        "msg = \"Product space too large to allocate arrays!\"",
+        "msg = \"Product space too large to allocate <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Unable to avoid copy while creating\"):",
+        "with pytest.raises(ValueError, match=\"Unable to avoid copy <extra_id_0>"
+    ],
+    [
+        "msg = \"'name' must be a list / sequence of column names.\"",
+        "msg = \"'name' must be a list <extra_id_0>"
+    ],
+    [
+        "msg = \"'name' should have same length as number of levels on index.\"",
+        "msg = \"'name' should have same length <extra_id_0>"
+    ],
+    [
+        "pd.Categorical([\"a\", \"a\", \"b\", \"b\", \"c\", \"c\"], ordered=True),",
+        "pd.Categorical([\"a\", \"a\", \"b\", \"b\", <extra_id_0>"
+    ],
+    [
+        "[\"x\", \"x\", \"y\", \"z\", \"x\", \"y\"],",
+        "[\"x\", \"x\", \"y\", \"z\", <extra_id_0>"
+    ],
+    [
+        "original_dtypes = {name: mi.levels[i].dtype for i, name in enumerate(mi.names)}",
+        "original_dtypes = {name: mi.levels[i].dtype for i, name in <extra_id_0>"
+    ],
+    [
+        "\"b\": pd.Categorical([\"a\", \"a\", \"b\", \"b\", \"c\", \"c\"], ordered=True),",
+        "\"b\": pd.Categorical([\"a\", \"a\", \"b\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "\"c\": [\"x\", \"x\", \"y\", \"z\", \"x\", \"y\"],",
+        "\"c\": [\"x\", \"x\", \"y\", \"z\", \"x\", <extra_id_0>"
+    ],
+    [
+        "[[\"a\", \"b\", \"c\"], [\"x\", \"y\", \"z\"], [\"q\", \"w\", \"e\"]], names=expected",
+        "[[\"a\", \"b\", \"c\"], [\"x\", \"y\", <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Cannot create duplicate column labels\"):",
+        "with pytest.raises(ValueError, match=\"Cannot create duplicate column <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Cannot create duplicate column labels\"):",
+        "with pytest.raises(ValueError, match=\"Cannot create <extra_id_0>"
+    ],
+    [
+        "from pandas._libs import index as libindex",
+        "from pandas._libs import index <extra_id_0>"
+    ],
+    [
+        "result = sorted_idx.slice_locs((\"foo\", \"two\"), (\"qux\", \"one\"))",
+        "result = sorted_idx.slice_locs((\"foo\", \"two\"), (\"qux\", <extra_id_0>"
+    ],
+    [
+        "msg = \"[Kk]ey length.*greater than MultiIndex lexsort depth\"",
+        "msg = \"[Kk]ey length.*greater than MultiIndex <extra_id_0>"
+    ],
+    [
+        "msg = \"putmask: mask and data must be the same size\"",
+        "msg = \"putmask: mask and data must be the same <extra_id_0>"
+    ],
+    [
+        "msg = \"Reindexing only valid with uniquely valued Index objects\"",
+        "msg = \"Reindexing only valid with uniquely valued <extra_id_0>"
+    ],
+    [
+        "msg = \"tolerance not implemented yet for MultiIndex\"",
+        "msg = \"tolerance not implemented yet for <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"method\", [\"pad\", \"ffill\", \"backfill\", \"bfill\", \"nearest\"])",
+        "@pytest.mark.parametrize(\"method\", [\"pad\", \"ffill\", \"backfill\", <extra_id_0>"
+    ],
+    [
+        "msg = \"not implemented yet for MultiIndex\"",
+        "msg = \"not implemented yet <extra_id_0>"
+    ],
+    [
+        "msg = \"index must be monotonic increasing or decreasing\"",
+        "msg = \"index must be monotonic increasing <extra_id_0>"
+    ],
+    [
+        "msg = \"limit argument only valid if doing pad, backfill or nearest\"",
+        "msg = \"limit argument only valid if doing pad, <extra_id_0>"
+    ],
+    [
+        "msg = \"tolerance argument only valid if doing pad, backfill or nearest\"",
+        "msg = \"tolerance argument only valid if doing pad, <extra_id_0>"
+    ],
+    [
+        "result = idx[[True, False, True, False, True, True]]",
+        "result = idx[[True, False, True, False, True, <extra_id_0>"
+    ],
+    [
+        "index = Index([\"c\", \"a\", \"a\", \"b\", \"b\"])",
+        "index = Index([\"c\", \"a\", \"a\", <extra_id_0>"
+    ],
+    [
+        "levels = [[\"a\", \"b\"], [\"c\", \"d\"]]",
+        "levels = [[\"a\", \"b\"], [\"c\", <extra_id_0>"
+    ],
+    [
+        "levels = [[\"a\", \"b\"], [\"c\", \"d\"]]",
+        "levels = [[\"a\", \"b\"], [\"c\", <extra_id_0>"
+    ],
+    [
+        "expected = np.array([True, False, False, True])",
+        "expected = np.array([True, False, False, <extra_id_0>"
+    ],
+    [
+        "msg = r\"\\.where is not supported for MultiIndex operations\"",
+        "msg = r\"\\.where is not supported for <extra_id_0>"
+    ],
+    [
+        "msg = r\"\\.where is not supported for MultiIndex operations\"",
+        "msg = r\"\\.where is not supported for <extra_id_0>"
+    ],
+    [
+        "assert (\"bar\", \"two\") not in idx",
+        "assert (\"bar\", \"two\") not in <extra_id_0>"
+    ],
+    [
+        "idx = MultiIndex.from_product([[\"a\", \"b\"], [\"c\", \"d\"]])",
+        "idx = MultiIndex.from_product([[\"a\", \"b\"], <extra_id_0>"
+    ],
+    [
+        "result = index.get_indexer([keys[i] for i in expected])",
+        "result = index.get_indexer([keys[i] for <extra_id_0>"
+    ],
+    [
+        "result = index.get_indexer([missing] + [keys[i] for i in idces])",
+        "result = index.get_indexer([missing] + [keys[i] for i in <extra_id_0>"
+    ],
+    [
+        "msg = \"Must pass both levels and codes\"",
+        "msg = \"Must pass both levels <extra_id_0>"
+    ],
+    [
+        "ci = pd.CategoricalIndex(list(\"a\" * n) + ([\"abc\"] * n))",
+        "ci = pd.CategoricalIndex(list(\"a\" * n) + <extra_id_0>"
+    ],
+    [
+        "ci = pd.CategoricalIndex(list(\"a\" * n) + ([\"abc\"] * n))",
+        "ci = pd.CategoricalIndex(list(\"a\" * n) + ([\"abc\"] <extra_id_0>"
+    ],
+    [
+        "msg = \"Input must be Index or array-like\"",
+        "msg = \"Input must be Index <extra_id_0>"
+    ],
+    [
+        "msg = \"other must be a MultiIndex or a list of tuples\"",
+        "msg = \"other must be a MultiIndex or a list of <extra_id_0>"
+    ],
+    [
+        "msg = \"other must be a MultiIndex or a list of tuples\"",
+        "msg = \"other must be a MultiIndex or a list <extra_id_0>"
+    ],
+    [
+        "cases = [klass(second.values) for klass in [np.array, Series, list]]",
+        "cases = [klass(second.values) for klass in <extra_id_0>"
+    ],
+    [
+        "msg = \"other must be a MultiIndex or a list of tuples\"",
+        "msg = \"other must be a MultiIndex <extra_id_0>"
+    ],
+    [
+        "cases = [klass(second.values) for klass in [np.array, Series, list]]",
+        "cases = [klass(second.values) for klass in [np.array, <extra_id_0>"
+    ],
+    [
+        "msg = \"other must be a MultiIndex or a list of tuples\"",
+        "msg = \"other must be a MultiIndex or a <extra_id_0>"
+    ],
+    [
+        "idx = MultiIndex.from_product([[\"a\", \"b\"], [\"A\", \"B\"]], names=[\"a\", \"b\"])",
+        "idx = MultiIndex.from_product([[\"a\", \"b\"], [\"A\", <extra_id_0>"
+    ],
+    [
+        "[(\"bar\", \"one\"), (\"baz\", \"two\"), (\"foo\", \"two\"), (\"qux\", \"one\"), (\"qux\", \"two\")]",
+        "[(\"bar\", \"one\"), (\"baz\", \"two\"), (\"foo\", \"two\"), <extra_id_0>"
+    ],
+    [
+        "msg = \"other must be a MultiIndex or a list of tuples\"",
+        "msg = \"other must be a <extra_id_0>"
+    ],
+    [
+        "msg = \"sort order is undefined for incomparable objects\"",
+        "msg = \"sort order is <extra_id_0>"
+    ],
+    [
+        "msg = \"'values' is not ordered, please explicitly specify the categories order \"",
+        "msg = \"'values' is not ordered, please <extra_id_0>"
+    ],
+    [
+        "msg = \"The values in the array are unorderable\"",
+        "msg = \"The values in <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex(levels=idx.levels, codes=[[]] * idx.nlevels, names=None)",
+        "expected = MultiIndex(levels=idx.levels, codes=[[]] <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex(levels=idx.levels, codes=[[]] * idx.nlevels, names=idx.names)",
+        "expected = MultiIndex(levels=idx.levels, codes=[[]] <extra_id_0>"
+    ],
+    [
+        "msg = \"other must be a MultiIndex or a list of tuples\"",
+        "msg = \"other must be a MultiIndex <extra_id_0>"
+    ],
+    [
+        "msg = \"'<' not supported between instances of 'Timestamp' and 'int'\"",
+        "msg = \"'<' not supported between instances of <extra_id_0>"
+    ],
+    [
+        "msg = \"Can only union MultiIndex with MultiIndex or Index of tuples\"",
+        "msg = \"Can only union MultiIndex with <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"The 'sort' keyword only takes\"):",
+        "with pytest.raises(ValueError, match=\"The 'sort' keyword <extra_id_0>"
+    ],
+    [
+        "if index.empty or isinstance(index, (IntervalIndex, CategoricalIndex)):",
+        "if index.empty or <extra_id_0>"
+    ],
+    [
+        "pytest.skip(f\"No duplicates in an empty {type(index).__name__}\")",
+        "pytest.skip(f\"No duplicates in <extra_id_0>"
+    ],
+    [
+        "[pd.Categorical([\"a\", \"b\"], categories=[\"a\", \"b\"]), [\"a\", \"b\"]],",
+        "[pd.Categorical([\"a\", \"b\"], categories=[\"a\", <extra_id_0>"
+    ],
+    [
+        "b = pd.Categorical([\"a\", \"b\"], categories=[\"b\", \"a\"], ordered=b_ordered)",
+        "b = pd.Categorical([\"a\", \"b\"], categories=[\"b\", \"a\"], <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex.from_arrays([a, other], names=[\"x\", \"y\"])",
+        "expected = MultiIndex.from_arrays([a, <extra_id_0>"
+    ],
+    [
+        "msg = \"'MultiIndex' object has no attribute 'freq'\"",
+        "msg = \"'MultiIndex' object has no attribute <extra_id_0>"
+    ],
+    [
+        "msg = r\"take\\(\\) got an unexpected keyword argument 'foo'\"",
+        "msg = r\"take\\(\\) got an unexpected keyword <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'out' parameter is not supported\"",
+        "msg = \"the 'out' parameter is not <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'mode' parameter is not supported\"",
+        "msg = \"the 'mode' <extra_id_0>"
+    ],
+    [
+        "msg = \"Can only compare identically-labeled Series objects\"",
+        "msg = \"Can only compare identically-labeled <extra_id_0>"
+    ],
+    [
+        "all_false = np.array([False, False, False, False])",
+        "all_false = np.array([False, False, False, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([True, False, False, False])",
+        "expected = np.array([True, False, False, <extra_id_0>"
+    ],
+    [
+        "mi = MultiIndex.from_tuples([(\"a\", \"b\"), (\"b\", \"c\"), (\"c\", \"a\")])",
+        "mi = MultiIndex.from_tuples([(\"a\", \"b\"), (\"b\", \"c\"), <extra_id_0>"
+    ],
+    [
+        "result = mi == (\"c\", \"a\")",
+        "result = mi == (\"c\", <extra_id_0>"
+    ],
+    [
+        "major_axis = Index([\"foo\", \"bar\", \"baz\", \"qux\"])",
+        "major_axis = Index([\"foo\", \"bar\", <extra_id_0>"
+    ],
+    [
+        "for act, exp in zip(actual, expected):",
+        "for act, exp <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(KeyError, match=\"Level fourth not found\"):",
+        "with pytest.raises(KeyError, match=\"Level <extra_id_0>"
+    ],
+    [
+        "exp = \"object\" if not using_infer_string else pd.StringDtype(na_value=np.nan)",
+        "exp = \"object\" if not <extra_id_0>"
+    ],
+    [
+        "exp = \"object\" if not using_infer_string else pd.StringDtype(na_value=np.nan)",
+        "exp = \"object\" if not using_infer_string <extra_id_0>"
+    ],
+    [
+        "exp = \"object\" if not using_infer_string else pd.StringDtype(na_value=np.nan)",
+        "exp = \"object\" if not using_infer_string <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(IndexError, match=\"not a valid level number\"):",
+        "with pytest.raises(IndexError, match=\"not a valid <extra_id_0>"
+    ],
+    [
+        "new_names = [name + \"SUFFIX\" for name in index_names]",
+        "new_names = [name + \"SUFFIX\" <extra_id_0>"
+    ],
+    [
+        "msg = \"Length of names must match number of levels in MultiIndex\"",
+        "msg = \"Length of names must match <extra_id_0>"
+    ],
+    [
+        "new_levels = [[lev + \"a\" for lev in level] for level in levels]",
+        "new_levels = [[lev + \"a\" for lev in level] <extra_id_0>"
+    ],
+    [
+        "\"property 'codes' of 'MultiIndex' object has no setter\"",
+        "\"property 'codes' of 'MultiIndex' object <extra_id_0>"
+    ],
+    [
+        "new_levels = [[lev + \"a\" for lev in level] for level in levels]",
+        "new_levels = [[lev + \"a\" for lev in level] for level <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"Names must be a\"):",
+        "with pytest.raises(TypeError, match=\"Names must <extra_id_0>"
+    ],
+    [
+        "index = MultiIndex.from_arrays([sizes, colors], names=[\"size\", \"color\"])",
+        "index = MultiIndex.from_arrays([sizes, colors], names=[\"size\", <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex.from_arrays([expected_sizes, colors], names=[\"size\", \"color\"])",
+        "expected = MultiIndex.from_arrays([expected_sizes, colors], <extra_id_0>"
+    ],
+    [
+        "div_err = div_err.replace(\" __\", \" __r\")",
+        "div_err = div_err.replace(\" <extra_id_0>"
+    ],
+    [
+        "result = MultiIndex.from_product([[\"a\", \"b\", \"c\"], cat]).values",
+        "result = MultiIndex.from_product([[\"a\", \"b\", \"c\"], <extra_id_0>"
+    ],
+    [
+        "result = pd.DataFrame({\"a\": [\"a\", \"b\", \"c\"], \"b\": cat, \"c\": np.array(cat)}).values",
+        "result = pd.DataFrame({\"a\": [\"a\", \"b\", \"c\"], \"b\": cat, <extra_id_0>"
+    ],
+    [
+        "levels=[[\"bar\", \"baz\", \"foo\", \"qux\"], [\"mom\", \"next\", \"zenith\"]],",
+        "levels=[[\"bar\", \"baz\", \"foo\", \"qux\"], [\"mom\", \"next\", <extra_id_0>"
+    ],
+    [
+        "levels=[[\"qux\", \"foo\", \"baz\", \"bar\"], [\"three\", \"two\", \"one\"]],",
+        "levels=[[\"qux\", \"foo\", \"baz\", \"bar\"], [\"three\", <extra_id_0>"
+    ],
+    [
+        "levels=[[\"qux\", \"foo\", \"baz\", \"bar\"], [\"zenith\", \"next\", \"mom\"]],",
+        "levels=[[\"qux\", \"foo\", \"baz\", \"bar\"], [\"zenith\", \"next\", <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, False, True, True])",
+        "expected = np.array([False, False, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, False, True, True])",
+        "expected = np.array([False, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(KeyError, match=\"'Level A not found'\"):",
+        "with pytest.raises(KeyError, match=\"'Level A <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(KeyError, match=\"'Level C not found'\"):",
+        "with pytest.raises(KeyError, match=\"'Level C <extra_id_0>"
+    ],
+    [
+        "([(\"b\", np.nan)], [False, False, True], None),",
+        "([(\"b\", np.nan)], [False, False, True], <extra_id_0>"
+    ],
+    [
+        "midx = MultiIndex.from_arrays([[np.nan, \"a\", \"b\"], [\"c\", \"d\", np.nan]])",
+        "midx = MultiIndex.from_arrays([[np.nan, \"a\", \"b\"], [\"c\", \"d\", <extra_id_0>"
+    ],
+    [
+        "dropped = idx.drop([(\"foo\", \"two\"), (\"qux\", \"one\")])",
+        "dropped = idx.drop([(\"foo\", \"two\"), <extra_id_0>"
+    ],
+    [
+        "index = MultiIndex.from_tuples([(\"foo\", \"two\"), (\"qux\", \"one\")])",
+        "index = MultiIndex.from_tuples([(\"foo\", \"two\"), (\"qux\", <extra_id_0>"
+    ],
+    [
+        "mixed_index = MultiIndex.from_tuples([(\"qux\", \"one\"), (\"bar\", \"two\")])",
+        "mixed_index = MultiIndex.from_tuples([(\"qux\", \"one\"), (\"bar\", <extra_id_0>"
+    ],
+    [
+        "mixed_index = [\"foo\", (\"qux\", \"one\"), \"two\"]",
+        "mixed_index = [\"foo\", (\"qux\", <extra_id_0>"
+    ],
+    [
+        "\"at least one level must be left\"",
+        "\"at least one level must <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(KeyError, match=\"'Level four not found'\"):",
+        "with pytest.raises(KeyError, match=\"'Level four not <extra_id_0>"
+    ],
+    [
+        "df = df.pivot_table(index=\"a\", columns=[\"b\", \"c\"], values=\"d\")",
+        "df = df.pivot_table(index=\"a\", columns=[\"b\", <extra_id_0>"
+    ],
+    [
+        "mi = MultiIndex.from_tuples([(\"blah\", nulls_fixture)], names=[\"name\", \"date\"])",
+        "mi = MultiIndex.from_tuples([(\"blah\", <extra_id_0>"
+    ],
+    [
+        "msg = r\"labels \\[nan\\] not found in level\"",
+        "msg = r\"labels \\[nan\\] not found <extra_id_0>"
+    ],
+    [
+        "msg = r\"labels \\['a'\\] not found in level\"",
+        "msg = r\"labels \\['a'\\] <extra_id_0>"
+    ],
+    [
+        "major_axis = Index([\"foo\", \"bar\", \"baz\", \"qux\"])",
+        "major_axis = Index([\"foo\", \"bar\", <extra_id_0>"
+    ],
+    [
+        "mi = MultiIndex.from_arrays([[], []], names=[\"first\", \"second\"])",
+        "mi = MultiIndex.from_arrays([[], []], <extra_id_0>"
+    ],
+    [
+        "codes = [codes.copy() for i in range(nlevels)]",
+        "codes = [codes.copy() for i in <extra_id_0>"
+    ],
+    [
+        "(\"first\", [False, False, False, True, True, False]),",
+        "(\"first\", [False, False, False, True, True, <extra_id_0>"
+    ],
+    [
+        "(\"last\", [False, True, True, False, False, False]),",
+        "(\"last\", [False, True, True, <extra_id_0>"
+    ],
+    [
+        "(False, [False, True, True, True, True, False]),",
+        "(False, [False, True, True, True, True, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, False, False, True, False, False], dtype=bool)",
+        "expected = np.array([False, False, False, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([True, False, False, False, False, False])",
+        "expected = np.array([True, False, False, False, False, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([True, False, False, True, False, False])",
+        "expected = np.array([True, False, False, True, <extra_id_0>"
+    ],
+    [
+        "[False, False, False, True, False, False, False, True, False, True],",
+        "[False, False, False, True, False, False, False, <extra_id_0>"
+    ],
+    [
+        "midx = MultiIndex.from_arrays([vals_a, vals_b], names=[\"a\", \"b\"])",
+        "midx = MultiIndex.from_arrays([vals_a, vals_b], <extra_id_0>"
+    ],
+    [
+        "expected = MultiIndex.from_arrays([exp_vals_a, exp_vals_b], names=[\"a\", \"b\"])",
+        "expected = MultiIndex.from_arrays([exp_vals_a, exp_vals_b], <extra_id_0>"
+    ],
+    [
+        "assert [level.name for level in result.levels] == [\"first\", \"second\"]",
+        "assert [level.name for level in result.levels] == [\"first\", <extra_id_0>"
+    ],
+    [
+        "assert [level.name for level in result.levels] == [\"first\", \"second\"]",
+        "assert [level.name for level in result.levels] == <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"Fill method not supported\"):",
+        "with pytest.raises(TypeError, match=\"Fill method <extra_id_0>"
+    ],
+    [
+        "idx.names = target.names = [None, None]",
+        "idx.names = target.names <extra_id_0>"
+    ],
+    [
+        "exp = np.object_ if not using_infer_string else str",
+        "exp = np.object_ if not using_infer_string <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot handle a non-unique multi-index!\"",
+        "msg = \"cannot handle a non-unique <extra_id_0>"
+    ],
+    [
+        "keys = [(\"i\", \"i\"), (\"i\", \"j\"), (\"j\", \"i\"), \"j\"]",
+        "keys = [(\"i\", \"i\"), (\"i\", <extra_id_0>"
+    ],
+    [
+        "match=\"limit argument only valid if doing pad, backfill or nearest reindexing\",",
+        "match=\"limit argument only valid if doing pad, backfill <extra_id_0>"
+    ],
+    [
+        "for x, val in zip(periods, field_idx):",
+        "for x, val in <extra_id_0>"
+    ],
+    [
+        "for x, val in zip(periods, field_s):",
+        "for x, val in zip(periods, <extra_id_0>"
+    ],
+    [
+        "exp = Index([x.ordinal for x in index])",
+        "exp = Index([x.ordinal for x in <extra_id_0>"
+    ],
+    [
+        "msg = r\"Input has different freq=B from PeriodIndex\\(freq=D\\)\"",
+        "msg = r\"Input has different <extra_id_0>"
+    ],
+    [
+        "msg = \"Input has different freq=h from PeriodArray\"",
+        "msg = \"Input has <extra_id_0>"
+    ],
+    [
+        "\"searchsorted requires compatible dtype or scalar\",",
+        "\"searchsorted requires compatible dtype or <extra_id_0>"
+    ],
+    [
+        "\"value should be a 'Period', 'NaT', or array of those. Got\",",
+        "\"value should be a 'Period', 'NaT', or <extra_id_0>"
+    ],
+    [
+        "\"property 'freq' of 'PeriodArray' object has no setter\"",
+        "\"property 'freq' of 'PeriodArray' object has <extra_id_0>"
+    ],
+    [
+        "msg = \"Mismatched Period array lengths\"",
+        "msg = \"Mismatched <extra_id_0>"
+    ],
+    [
+        "msg = \"freq not specified and cannot be inferred\"",
+        "msg = \"freq not specified <extra_id_0>"
+    ],
+    [
+        "msg = \"'Period' object is not iterable\"",
+        "msg = \"'Period' object <extra_id_0>"
+    ],
+    [
+        "msg = \"specified freq and dtype are different\"",
+        "msg = \"specified freq <extra_id_0>"
+    ],
+    [
+        "msg = \"Input has different freq=D from PeriodIndex\\\\(freq=M\\\\)\"",
+        "msg = \"Input has different <extra_id_0>"
+    ],
+    [
+        "msg = \"PeriodIndex does not allow floating point in construction\"",
+        "msg = \"PeriodIndex does not allow floating point in <extra_id_0>"
+    ],
+    [
+        "msg = \"Period with BDay freq is deprecated\"",
+        "msg = \"Period with BDay freq <extra_id_0>"
+    ],
+    [
+        "msg = \"'w' is deprecated and will be removed in a future version.\"",
+        "msg = \"'w' is deprecated and will be <extra_id_0>"
+    ],
+    [
+        "msg = \"Period with BDay freq is deprecated\"",
+        "msg = \"Period with BDay freq <extra_id_0>"
+    ],
+    [
+        "msg = \"Period with BDay freq is deprecated\"",
+        "msg = \"Period with <extra_id_0>"
+    ],
+    [
+        "msg = r\"Input has different freq=W-SUN from PeriodIndex\\(freq=B\\)\"",
+        "msg = r\"Input has different <extra_id_0>"
+    ],
+    [
+        "\"freq\", [\"M\", \"Q\", \"Y\", \"D\", \"B\", \"min\", \"s\", \"ms\", \"us\", \"ns\", \"h\"]",
+        "\"freq\", [\"M\", \"Q\", \"Y\", \"D\", \"B\", \"min\", <extra_id_0>"
+    ],
+    [
+        "r\"ignore:Period with BDay freq is deprecated:FutureWarning\"",
+        "r\"ignore:Period with BDay freq <extra_id_0>"
+    ],
+    [
+        "expected = Index([str(num) for num in raw])",
+        "expected = Index([str(num) for num <extra_id_0>"
+    ],
+    [
+        "assert all(isinstance(resi, str) for resi in res)",
+        "assert all(isinstance(resi, str) for resi <extra_id_0>"
+    ],
+    [
+        "from pandas._libs.tslibs import period as libperiod",
+        "from pandas._libs.tslibs import <extra_id_0>"
+    ],
+    [
+        "result = idx[[True, True, False, False, False, True, True, False, False, False]]",
+        "result = idx[[True, True, False, False, False, True, True, <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot interpret 'foo' as period\"",
+        "msg = \"Cannot interpret <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot interpret 'foo' as period\"",
+        "msg = \"Cannot interpret 'foo' as <extra_id_0>"
+    ],
+    [
+        "msg = re.escape(f\"Cannot compare dtypes {pi.dtype} and {other.dtype}\")",
+        "msg = re.escape(f\"Cannot compare dtypes <extra_id_0>"
+    ],
+    [
+        "if dtype == \"object\" and isinstance(other, PeriodIndex):",
+        "if dtype == \"object\" and <extra_id_0>"
+    ],
+    [
+        "f\"Cannot compare dtypes {pi.dtype} and {other.dtype}\",",
+        "f\"Cannot compare dtypes {pi.dtype} <extra_id_0>"
+    ],
+    [
+        "\" not supported between instances of \",",
+        "\" not supported between instances <extra_id_0>"
+    ],
+    [
+        "msg = \"Input has different freq=None from PeriodArray\\\\(freq=h\\\\)\"",
+        "msg = \"Input has <extra_id_0>"
+    ],
+    [
+        "libperiod.IncompatibleFrequency, match=\"Input has different freq=None from\"",
+        "libperiod.IncompatibleFrequency, match=\"Input has different <extra_id_0>"
+    ],
+    [
+        "expected = pd.Index([NaT._value, NaT._value] + tail, dtype=object)",
+        "expected = pd.Index([NaT._value, NaT._value] + tail, <extra_id_0>"
+    ],
+    [
+        "expected = pd.Index([td, td] + tail, dtype=object)",
+        "expected = pd.Index([td, td] + tail, <extra_id_0>"
+    ],
+    [
+        "cond = np.array([True, False, True, True, False])",
+        "cond = np.array([True, False, True, <extra_id_0>"
+    ],
+    [
+        "msg = \"must be DatetimeIndex or PeriodIndex\"",
+        "msg = \"must be <extra_id_0>"
+    ],
+    [
+        "msg = \"Input has different freq=h\"",
+        "msg = \"Input has different <extra_id_0>"
+    ],
+    [
+        "for rng, other, expected in [",
+        "for rng, other, <extra_id_0>"
+    ],
+    [
+        "for rng, other, expected in [",
+        "for rng, other, expected in <extra_id_0>"
+    ],
+    [
+        "if sort is None and len(other):",
+        "if sort is None <extra_id_0>"
+    ],
+    [
+        "msg = \"slice indices must be integers or None or have an __index__ method\"",
+        "msg = \"slice indices must be integers or <extra_id_0>"
+    ],
+    [
+        "msg = \"slice indices must be integers or None or have an __index__ method\"",
+        "msg = \"slice indices must be integers or None or have <extra_id_0>"
+    ],
+    [
+        "f\"cannot do slice indexing on {type(idx).__name__} with \"",
+        "f\"cannot do slice indexing on {type(idx).__name__} with <extra_id_0>"
+    ],
+    [
+        "r\"these indexers \\[foo\\] of type str\"",
+        "r\"these indexers \\[foo\\] of <extra_id_0>"
+    ],
+    [
+        "\"Of the three parameters: start, end, and periods, exactly two \"",
+        "\"Of the three parameters: start, end, and periods, exactly two <extra_id_0>"
+    ],
+    [
+        "\"Of the three parameters: start, end, and periods, exactly two \"",
+        "\"Of the three parameters: start, end, and periods, exactly <extra_id_0>"
+    ],
+    [
+        "\"Of the three parameters: start, end, and periods, \"",
+        "\"Of the three parameters: start, end, <extra_id_0>"
+    ],
+    [
+        "\"Of the three parameters: start, end, and periods, \"",
+        "\"Of the three parameters: start, end, <extra_id_0>"
+    ],
+    [
+        "msg = \"start and end must not be NaT\"",
+        "msg = \"start and end <extra_id_0>"
+    ],
+    [
+        "msg = \"periods must be an integer, got foo\"",
+        "msg = \"periods must be an integer, got <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=start, end=end, freq=freq_period, name=\"foo\")",
+        "result = period_range(start=start, end=end, <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=end, end=start, freq=freq_period, name=\"foo\")",
+        "result = period_range(start=end, end=start, freq=freq_period, <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=start, end=end, freq=\"M\", name=\"foo\")",
+        "result = period_range(start=start, end=end, <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=end, end=start, freq=\"M\", name=\"foo\")",
+        "result = period_range(start=end, <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=start, end=end, freq=\"M\", name=\"foo\")",
+        "result = period_range(start=start, <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=start, end=end, freq=\"Q\", name=\"foo\")",
+        "result = period_range(start=start, end=end, freq=\"Q\", <extra_id_0>"
+    ],
+    [
+        "idx = period_range(start=start, end=end, freq=\"Q\", name=\"foo\")",
+        "idx = period_range(start=start, end=end, freq=\"Q\", <extra_id_0>"
+    ],
+    [
+        "expected = np.array([True, True, True, True, True])",
+        "expected = np.array([True, True, <extra_id_0>"
+    ],
+    [
+        "result = period_range(start=end, end=start, freq=\"W\", name=\"foo\")",
+        "result = period_range(start=end, end=start, freq=\"W\", <extra_id_0>"
+    ],
+    [
+        "depr_msg = \"Period with BDay freq is deprecated\"",
+        "depr_msg = \"Period with BDay <extra_id_0>"
+    ],
+    [
+        "msg = \"start and end must have same freq\"",
+        "msg = \"start and end must have <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Index is not monotonic\"):",
+        "with pytest.raises(ValueError, match=\"Index is not <extra_id_0>"
+    ],
+    [
+        "msg = \"`freq` argument is not supported for PeriodIndex.shift\"",
+        "msg = \"`freq` argument is <extra_id_0>"
+    ],
+    [
+        "expected = DatetimeIndex([x.to_timestamp(\"D\", \"end\") for x in pindex])",
+        "expected = DatetimeIndex([x.to_timestamp(\"D\", \"end\") <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"for Period, please use 'M' instead of 'MS'\"):",
+        "with pytest.raises(ValueError, match=\"for Period, please use <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot cast PeriodIndex to dtype\"",
+        "msg = \"Cannot cast <extra_id_0>"
+    ],
+    [
+        "[str(x) if x is not NaT else None for x in idx], name=\"idx\", dtype=\"str\"",
+        "[str(x) if x is not NaT else None for x in <extra_id_0>"
+    ],
+    [
+        "expected = Index([str(x) for x in idx], name=\"idx\", dtype=object)",
+        "expected = Index([str(x) for x in idx], <extra_id_0>"
+    ],
+    [
+        "msg = \"How must be one of S or E\"",
+        "msg = \"How must be one <extra_id_0>"
+    ],
+    [
+        "re.escape(f\"{freq} is not supported as period frequency\"),",
+        "re.escape(f\"{freq} is not supported as period <extra_id_0>"
+    ],
+    [
+        "\"bh is not supported as period frequency\",",
+        "\"bh is not supported as <extra_id_0>"
+    ],
+    [
+        "msg = \"must be called with a collection of some kind\"",
+        "msg = \"must be called with a collection <extra_id_0>"
+    ],
+    [
+        "data, cats, ordered = \"a a b b\".split(), \"c b a\".split(), True",
+        "data, cats, ordered = \"a a b b\".split(), \"c <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot specify `categories` or `ordered` together with `dtype`.\"",
+        "msg = \"Cannot specify `categories` or `ordered` together with <extra_id_0>"
+    ],
+    [
+        "msg = \"all inputs must be Index\"",
+        "msg = \"all inputs <extra_id_0>"
+    ],
+    [
+        "expected = Index([\"a\", \"a\", \"b\", \"b\", \"c\", \"a\", \"a\", \"d\"])",
+        "expected = Index([\"a\", \"a\", \"b\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "expected = Index([\"a\", \"b\", \"d\", \"e\"])",
+        "expected = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "msg = \"Categoricals can only be compared if 'categories' are the same\"",
+        "msg = \"Categoricals can only be compared if 'categories' <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex(list(\"aabca\"), categories=[\"c\", \"a\", \"b\"])",
+        "ci = CategoricalIndex(list(\"aabca\"), categories=[\"c\", <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex(list(\"aabca\") + [np.nan], categories=[\"c\", \"a\", \"b\"])",
+        "ci = CategoricalIndex(list(\"aabca\") + <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex(list(\"aabca\") + [np.nan], categories=[\"c\", \"a\", \"b\"])",
+        "ci = CategoricalIndex(list(\"aabca\") + [np.nan], <extra_id_0>"
+    ],
+    [
+        "assert not ci.equals(CategoricalIndex(list(\"aabca\") + [np.nan], ordered=True))",
+        "assert not ci.equals(CategoricalIndex(list(\"aabca\") + <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"A\", \"B\", np.nan, np.nan])",
+        "ci = CategoricalIndex([\"A\", <extra_id_0>"
+    ],
+    [
+        "other = Index([\"A\", \"B\", \"D\", np.nan])",
+        "other = Index([\"A\", <extra_id_0>"
+    ],
+    [
+        "other = Index([\"a\", \"b\", \"c\"], name=\"B\", dtype=any_string_dtype)",
+        "other = Index([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "[\"B\", \"C\", np.nan], categories=list(\"ABC\"), ordered=True, name=\"xxx\"",
+        "[\"B\", \"C\", np.nan], categories=list(\"ABC\"), ordered=True, <extra_id_0>"
+    ],
+    [
+        "msg = r\"take\\(\\) got an unexpected keyword argument 'foo'\"",
+        "msg = r\"take\\(\\) got an unexpected keyword <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'out' parameter is not supported\"",
+        "msg = \"the 'out' parameter <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'mode' parameter is not supported\"",
+        "msg = \"the 'mode' <extra_id_0>"
+    ],
+    [
+        "res, np.array([False, False, False, True, False, True])",
+        "res, np.array([False, False, False, True, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([False, True, False, True], dtype=bool)",
+        "expected = np.array([False, True, False, <extra_id_0>"
+    ],
+    [
+        "msg = \"Reindexing only valid with uniquely valued Index objects\"",
+        "msg = \"Reindexing only valid with uniquely valued <extra_id_0>"
+    ],
+    [
+        "msg = \"Reindexing only valid with uniquely valued Index objects\"",
+        "msg = \"Reindexing only valid <extra_id_0>"
+    ],
+    [
+        "msg = \"method pad not yet implemented for CategoricalIndex\"",
+        "msg = \"method pad not yet implemented for <extra_id_0>"
+    ],
+    [
+        "msg = \"method backfill not yet implemented for CategoricalIndex\"",
+        "msg = \"method backfill not yet implemented for <extra_id_0>"
+    ],
+    [
+        "msg = \"method nearest not yet implemented for CategoricalIndex\"",
+        "msg = \"method nearest not yet implemented <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex(cats, categories=cats, ordered=False, dtype=\"category\")",
+        "ci = CategoricalIndex(cats, categories=cats, ordered=False, <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\"], categories=[\"a\", \"b\"])",
+        "ci = CategoricalIndex([\"a\", \"b\"], categories=[\"a\", <extra_id_0>"
+    ],
+    [
+        "result = ci.get_indexer(CategoricalIndex([\"b\", \"b\"], categories=[\"a\", \"b\"]))",
+        "result = ci.get_indexer(CategoricalIndex([\"b\", <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\"], categories=[\"a\", \"b\"])",
+        "ci = CategoricalIndex([\"a\", \"b\"], <extra_id_0>"
+    ],
+    [
+        "result = ci.get_indexer(CategoricalIndex([\"b\", \"b\"], categories=[\"b\", \"a\"]))",
+        "result = ci.get_indexer(CategoricalIndex([\"b\", \"b\"], <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", \"d\"])",
+        "ci = CategoricalIndex([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "mask = np.array([True, False, True, False])",
+        "mask = np.array([True, False, <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot setitem on a Categorical with a new category\"",
+        "msg = \"Cannot setitem on a Categorical with a <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex(list(\"aabbca\") + [np.nan], categories=list(\"cabdef\"))",
+        "ci = CategoricalIndex(list(\"aabbca\") <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", None])",
+        "ci = CategoricalIndex([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "expected = CategoricalIndex([\"a\", \"b\"], categories=[\"a\", \"b\", \"c\"])",
+        "expected = CategoricalIndex([\"a\", \"b\"], <extra_id_0>"
+    ],
+    [
+        "from pandas._libs import index as libindex",
+        "from pandas._libs import index <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot setitem on a Categorical with a new category\"",
+        "msg = \"Cannot setitem on a Categorical <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot setitem on a Categorical with a new category\"",
+        "msg = \"Cannot setitem on a Categorical with a new <extra_id_0>"
+    ],
+    [
+        "b = Series([\"even\", \"odd\", \"even\", \"odd\"], dtype=\"category\")",
+        "b = Series([\"even\", \"odd\", \"even\", <extra_id_0>"
+    ],
+    [
+        "c = Series([\"even\", \"odd\", \"even\", \"odd\"])",
+        "c = Series([\"even\", \"odd\", <extra_id_0>"
+    ],
+    [
+        "exp = CategoricalIndex([\"odd\", \"even\", \"odd\", np.nan])",
+        "exp = CategoricalIndex([\"odd\", <extra_id_0>"
+    ],
+    [
+        "exp = Index([\"odd\", \"even\", \"odd\", np.nan])",
+        "exp = Index([\"odd\", \"even\", <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot reindex on an axis with duplicate labels\"",
+        "msg = \"cannot reindex on <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", \"a\"])",
+        "ci = CategoricalIndex([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot reindex on an axis with duplicate labels\"",
+        "msg = \"cannot reindex on an axis with <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", \"a\"])",
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot reindex on an axis with duplicate labels\"",
+        "msg = \"cannot reindex on an axis with <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", \"a\"], categories=[\"a\", \"b\", \"c\", \"d\"])",
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot reindex on an axis with duplicate labels\"",
+        "msg = \"cannot reindex on an axis <extra_id_0>"
+    ],
+    [
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", \"a\"], categories=[\"a\", \"b\", \"c\", \"d\"])",
+        "ci = CategoricalIndex([\"a\", \"b\", \"c\", \"a\"], categories=[\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "cat = CategoricalIndex([\"a\", \"b\", \"c\"], categories=[\"a\", \"b\", \"c\", \"d\"])",
+        "cat = CategoricalIndex([\"a\", \"b\", \"c\"], categories=[\"a\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "res, indexer = cat.reindex([\"a\", \"c\", \"c\"])",
+        "res, indexer = cat.reindex([\"a\", \"c\", <extra_id_0>"
+    ],
+    [
+        "CategoricalIndex([\"a\", \"c\", \"c\"], categories=[\"a\", \"b\", \"c\", \"d\"])",
+        "CategoricalIndex([\"a\", \"c\", \"c\"], categories=[\"a\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "exp = CategoricalIndex([\"a\", \"c\", \"c\"], categories=[\"a\", \"b\", \"c\", \"d\"])",
+        "exp = CategoricalIndex([\"a\", \"c\", \"c\"], categories=[\"a\", \"b\", \"c\", <extra_id_0>"
+    ],
+    [
+        "joined, lidx, ridx = left.join(left, return_indexers=True)",
+        "joined, lidx, ridx <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"inner\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other_mono, how=\"inner\", return_indexers=True)",
+        "res, lidx, ridx = <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"left\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other_mono, how=\"left\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other_mono, how=\"left\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"right\", return_indexers=True)",
+        "res, lidx, ridx = <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other_mono, how=\"right\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other_mono, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other, how=\"outer\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other, how=\"outer\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index.join(other_mono, how=\"outer\", return_indexers=True)",
+        "res, lidx, ridx = index.join(other_mono, how=\"outer\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index_large.join(other, how=\"inner\", return_indexers=True)",
+        "res, lidx, ridx = index_large.join(other, <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index_large.join(other, how=\"left\", return_indexers=True)",
+        "res, lidx, ridx = index_large.join(other, how=\"left\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index_large.join(other_mono, how=\"left\", return_indexers=True)",
+        "res, lidx, ridx = index_large.join(other_mono, how=\"left\", <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index_large.join(other, how=\"right\", return_indexers=True)",
+        "res, lidx, ridx = <extra_id_0>"
+    ],
+    [
+        "res, lidx, ridx = index_large.join(other, how=\"outer\", return_indexers=True)",
+        "res, lidx, ridx = index_large.join(other, how=\"outer\", <extra_id_0>"
+    ],
+    [
+        "msg = \"'Cannot get left slice bound for non-unique label: nan'\"",
+        "msg = \"'Cannot get left slice bound for <extra_id_0>"
+    ],
+    [
+        "msg = \"'Cannot get left slice bound for non-unique label: nan\"",
+        "msg = \"'Cannot get left slice bound for non-unique <extra_id_0>"
+    ],
+    [
+        "def test_get_indexer_nearest(self, method, tolerance, indexer, expected):",
+        "def test_get_indexer_nearest(self, method, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"tolerance size must match\"):",
+        "with pytest.raises(ValueError, match=\"tolerance size must <extra_id_0>"
+    ],
+    [
+        "idx = Index([True, False, NA], dtype=dtype)",
+        "idx = Index([True, False, NA], <extra_id_0>"
+    ],
+    [
+        "msg = f\"Unable to fill values because {name} cannot contain NA\"",
+        "msg = f\"Unable to fill values because <extra_id_0>"
+    ],
+    [
+        "rf\"{cls_name}\\(\\.\\.\\.\\) must be called with a collection of \"",
+        "rf\"{cls_name}\\(\\.\\.\\.\\) must be called with <extra_id_0>"
+    ],
+    [
+        "msg = \"Trying to coerce float values to integers\"",
+        "msg = \"Trying to coerce float values to <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and result == <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and result <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and result == <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and result <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, type(expected)) and result == expected",
+        "assert isinstance(result, type(expected)) and result == <extra_id_0>"
+    ],
+    [
+        "\"Cannot change data-type for array of references.|\"",
+        "\"Cannot change data-type for <extra_id_0>"
+    ],
+    [
+        "\"Cannot change data-type for object array.|\"",
+        "\"Cannot change data-type for <extra_id_0>"
+    ],
+    [
+        "rf\"{index_cls.__name__}\\(\\.\\.\\.\\) must be called with a collection of some \"",
+        "rf\"{index_cls.__name__}\\(\\.\\.\\.\\) must be called with a <extra_id_0>"
+    ],
+    [
+        "msg = \"Trying to coerce object values to integers\"",
+        "msg = \"Trying to coerce <extra_id_0>"
+    ],
+    [
+        "\"Trying to coerce negative values to unsigned integers\",",
+        "\"Trying to coerce negative <extra_id_0>"
+    ],
+    [
+        "\"The elements provided in the data cannot all be casted\",",
+        "\"The elements provided in the data cannot <extra_id_0>"
+    ],
+    [
+        "[list, lambda x: np.array(x, dtype=object), lambda x: Index(x, dtype=object)],",
+        "[list, lambda x: np.array(x, dtype=object), lambda <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, Index) and result.dtype == object",
+        "assert isinstance(result, Index) and result.dtype <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, Index) and result.dtype == object",
+        "assert isinstance(result, Index) and result.dtype == <extra_id_0>"
+    ],
+    [
+        "assert isinstance(result, Index) and result.dtype == dtype",
+        "assert isinstance(result, Index) and result.dtype <extra_id_0>"
+    ],
+    [
+        "msg = r\"Cannot convert non-finite values \\(NA or inf\\) to integer\"",
+        "msg = r\"Cannot convert non-finite values \\(NA or inf\\) to <extra_id_0>"
+    ],
+    [
+        "actual = index.get_indexer([\"a\", \"b\", \"c\", \"d\"], method=method)",
+        "actual = index.get_indexer([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "\"operation 'sub' not supported for dtype 'str'\",",
+        "\"operation 'sub' not supported for <extra_id_0>"
+    ],
+    [
+        "r\"unsupported operand type\\(s\\) for -: 'str' and 'str'\",",
+        "r\"unsupported operand type\\(s\\) for -: 'str' and <extra_id_0>"
+    ],
+    [
+        "idx = Index([\"a\", \"b\", None], dtype=\"object\")",
+        "idx = Index([\"a\", \"b\", None], <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", nulls_fixture], dtype=object)",
+        "index = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", nulls_fixture, \"b\", nulls_fixture], dtype=object)",
+        "index = Index([\"a\", nulls_fixture, \"b\", nulls_fixture], <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", float(\"NaN\"), \"b\", float(\"NaN\")], dtype=object)",
+        "index = Index([\"a\", float(\"NaN\"), <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", Decimal(\"NaN\"), \"b\", Decimal(\"NaN\")], dtype=object)",
+        "index = Index([\"a\", Decimal(\"NaN\"), \"b\", <extra_id_0>"
+    ],
+    [
+        "msg = \"Passed data is timezone-aware, incompatible with 'tz=None'\"",
+        "msg = \"Passed data is <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot pass both a timezone-aware dtype and tz=None\"",
+        "msg = \"Cannot pass both a timezone-aware <extra_id_0>"
+    ],
+    [
+        "\"Inferred frequency None from passed values does not conform \"",
+        "\"Inferred frequency None from passed values does <extra_id_0>"
+    ],
+    [
+        "for obj in [ci, carr, cser]:",
+        "for obj in [ci, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"PeriodDtype data is invalid\"):",
+        "with pytest.raises(TypeError, match=\"PeriodDtype <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"PeriodDtype data is invalid\"):",
+        "with pytest.raises(TypeError, match=\"PeriodDtype data <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"PeriodDtype data is invalid\"):",
+        "with pytest.raises(TypeError, match=\"PeriodDtype data <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"PeriodDtype data is invalid\"):",
+        "with pytest.raises(TypeError, match=\"PeriodDtype data is <extra_id_0>"
+    ],
+    [
+        "[{\"tz\": \"dtype.tz\"}, {\"dtype\": \"dtype\"}, {\"dtype\": \"dtype\", \"tz\": \"dtype.tz\"}],",
+        "[{\"tz\": \"dtype.tz\"}, {\"dtype\": \"dtype\"}, {\"dtype\": \"dtype\", <extra_id_0>"
+    ],
+    [
+        "kwargs = {key: attrgetter(val)(i) for key, val in kwargs.items()}",
+        "kwargs = {key: attrgetter(val)(i) for <extra_id_0>"
+    ],
+    [
+        "[{\"tz\": \"dtype.tz\"}, {\"dtype\": \"dtype\"}, {\"dtype\": \"dtype\", \"tz\": \"dtype.tz\"}],",
+        "[{\"tz\": \"dtype.tz\"}, {\"dtype\": \"dtype\"}, {\"dtype\": \"dtype\", \"tz\": <extra_id_0>"
+    ],
+    [
+        "kwargs = {key: attrgetter(val)(i) for key, val in kwargs.items()}",
+        "kwargs = {key: attrgetter(val)(i) for key, val <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot supply both a tz and a dtype with a tz\"",
+        "msg = \"cannot supply both a tz and <extra_id_0>"
+    ],
+    [
+        "msg = \"Mixed timezones detected. Pass utc=True in to_datetime\"",
+        "msg = \"Mixed timezones detected. <extra_id_0>"
+    ],
+    [
+        "msg = r\"DatetimeIndex\\(\\.\\.\\.\\) must be called with a collection\"",
+        "msg = r\"DatetimeIndex\\(\\.\\.\\.\\) must be called with <extra_id_0>"
+    ],
+    [
+        "\"Inferred frequency None from passed values does not conform \"",
+        "\"Inferred frequency None from passed values does <extra_id_0>"
+    ],
+    [
+        "\"cannot supply both a tz and a timezone-naive dtype \"",
+        "\"cannot supply both a tz and a <extra_id_0>"
+    ],
+    [
+        "msg = \"data is already tz-aware US/Eastern, unable to set specified tz: CET\"",
+        "msg = \"data is already tz-aware US/Eastern, unable to set specified tz: <extra_id_0>"
+    ],
+    [
+        "msg = \"cannot supply both a tz and a dtype with a tz\"",
+        "msg = \"cannot supply both a tz and <extra_id_0>"
+    ],
+    [
+        "msg = \"Unexpected value for 'dtype'\"",
+        "msg = \"Unexpected <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot directly set timezone\"",
+        "msg = \"Cannot directly <extra_id_0>"
+    ],
+    [
+        "result = date_range(freq=\"D\", start=start, end=end, tz=tz)",
+        "result = date_range(freq=\"D\", <extra_id_0>"
+    ],
+    [
+        "def test_constructor_with_int_tz(self, klass, box, tz, dtype):",
+        "def test_constructor_with_int_tz(self, klass, box, tz, <extra_id_0>"
+    ],
+    [
+        "msg = \"data is already tz-aware US/Central, unable to set specified tz\"",
+        "msg = \"data is already tz-aware US/Central, unable to set specified <extra_id_0>"
+    ],
+    [
+        "msg = \"with no precision is not allowed\"",
+        "msg = \"with no <extra_id_0>"
+    ],
+    [
+        "idx = Index([\"a\", \"b\", \"c\", \"d\"])",
+        "idx = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "naive = date_range(start, end, freq=BDay(), tz=None)",
+        "naive = date_range(start, end, <extra_id_0>"
+    ],
+    [
+        "aware = date_range(start, end, freq=BDay(), tz=\"Asia/Hong_Kong\")",
+        "aware = date_range(start, end, <extra_id_0>"
+    ],
+    [
+        "if inclusive_endpoints == \"left\" and right_match:",
+        "if inclusive_endpoints == \"left\" and <extra_id_0>"
+    ],
+    [
+        "elif inclusive_endpoints == \"right\" and left_match:",
+        "elif inclusive_endpoints == <extra_id_0>"
+    ],
+    [
+        "elif inclusive_endpoints == \"neither\" and left_match and right_match:",
+        "elif inclusive_endpoints == \"neither\" and left_match <extra_id_0>"
+    ],
+    [
+        "elif inclusive_endpoints == \"neither\" and right_match:",
+        "elif inclusive_endpoints == \"neither\" <extra_id_0>"
+    ],
+    [
+        "elif inclusive_endpoints == \"neither\" and left_match:",
+        "elif inclusive_endpoints == \"neither\" and <extra_id_0>"
+    ],
+    [
+        "from pandas._libs.tslibs.timezones import dateutil_gettz as gettz",
+        "from pandas._libs.tslibs.timezones import dateutil_gettz as <extra_id_0>"
+    ],
+    [
+        "msg = \"periods must be an integer, got foo\"",
+        "msg = \"periods must be <extra_id_0>"
+    ],
+    [
+        "msg = \"periods must be an integer\"",
+        "msg = \"periods must <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(TypeError, match=\"pass as a string instead\"):",
+        "with pytest.raises(TypeError, match=\"pass as <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"freq\", [\"ns\", \"us\", \"ms\", \"min\", \"s\", \"h\", \"D\"])",
+        "@pytest.mark.parametrize(\"freq\", [\"ns\", \"us\", \"ms\", <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(OutOfBoundsDatetime, match=\"Cannot generate range with\"):",
+        "with pytest.raises(OutOfBoundsDatetime, match=\"Cannot generate range <extra_id_0>"
+    ],
+    [
+        "msg = \"Neither `start` nor `end` can be NaT\"",
+        "msg = \"Neither `start` nor `end` can <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot generate range with\"",
+        "msg = \"Cannot <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot generate range with\"",
+        "msg = \"Cannot <extra_id_0>"
+    ],
+    [
+        "\"Of the four parameters: start, end, periods, and \"",
+        "\"Of the four parameters: start, end, <extra_id_0>"
+    ],
+    [
+        "\"freq, exactly three must be specified\"",
+        "\"freq, exactly three must be <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Unable to coerce to Series\"):",
+        "with pytest.raises(ValueError, match=\"Unable to coerce <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Unable to coerce to Series\"):",
+        "with pytest.raises(ValueError, match=\"Unable to coerce to <extra_id_0>"
+    ],
+    [
+        "[[True, False, False], [False, True, False], [False, False, True]]",
+        "[[True, False, False], [False, True, False], [False, <extra_id_0>"
+    ],
+    [
+        "\"Of the four parameters: start, end, periods, and \"",
+        "\"Of the four parameters: start, end, periods, and <extra_id_0>"
+    ],
+    [
+        "\"freq, exactly three must be specified\"",
+        "\"freq, exactly three must be <extra_id_0>"
+    ],
+    [
+        "dr = date_range(start, end, freq=\"D\", tz=tz)",
+        "dr = date_range(start, end, freq=\"D\", <extra_id_0>"
+    ],
+    [
+        "tz = lambda x: maybe_get_tz(\"dateutil/\" + x)",
+        "tz = lambda x: maybe_get_tz(\"dateutil/\" <extra_id_0>"
+    ],
+    [
+        "both_range = date_range(begin, end, inclusive=\"both\", freq=freq)",
+        "both_range = date_range(begin, end, inclusive=\"both\", <extra_id_0>"
+    ],
+    [
+        "msg = \"Inferred time zone not equal to passed time zone\"",
+        "msg = \"Inferred time zone not equal to <extra_id_0>"
+    ],
+    [
+        "both_range = date_range(start=start, end=end, freq=\"D\", inclusive=\"both\")",
+        "both_range = date_range(start=start, <extra_id_0>"
+    ],
+    [
+        "elif inclusive_endpoints_fixture in (\"left\", \"right\", \"both\"):",
+        "elif inclusive_endpoints_fixture in (\"left\", \"right\", <extra_id_0>"
+    ],
+    [
+        "\"freq_depr\", [\"m\", \"bm\", \"CBM\", \"SM\", \"BQ\", \"q-feb\", \"y-may\", \"Y-MAY\"]",
+        "\"freq_depr\", [\"m\", \"bm\", \"CBM\", \"SM\", \"BQ\", \"q-feb\", <extra_id_0>"
+    ],
+    [
+        "def __init__(self, offset, name) -> None:",
+        "def __init__(self, offset, <extra_id_0>"
+    ],
+    [
+        "for a, b, c in zip(utc_range, eastern_range, berlin_range):",
+        "for a, b, c <extra_id_0>"
+    ],
+    [
+        "msg = \"Start and end cannot both be tz-aware with different timezones\"",
+        "msg = \"Start and end cannot <extra_id_0>"
+    ],
+    [
+        "dates_aware = [conversion.localize_pydatetime(x, tz) for x in dates]",
+        "dates_aware = [conversion.localize_pydatetime(x, tz) for x <extra_id_0>"
+    ],
+    [
+        "ex_vals = np.array([Timestamp(x).as_unit(\"ns\")._value for x in dates_aware])",
+        "ex_vals = np.array([Timestamp(x).as_unit(\"ns\")._value for x in <extra_id_0>"
+    ],
+    [
+        "from pandas._libs import index as libindex",
+        "from pandas._libs import index <extra_id_0>"
+    ],
+    [
+        "dr = date_range(st, et, freq=\"h\", name=\"timebucket\")",
+        "dr = date_range(st, <extra_id_0>"
+    ],
+    [
+        "expected = Index([pd.NaT._value, pd.NaT._value] + tail, dtype=object)",
+        "expected = Index([pd.NaT._value, pd.NaT._value] + <extra_id_0>"
+    ],
+    [
+        "expected = Index([td, td] + tail, dtype=object)",
+        "expected = Index([td, td] + tail, <extra_id_0>"
+    ],
+    [
+        "msg = r\"take\\(\\) got an unexpected keyword argument 'foo'\"",
+        "msg = r\"take\\(\\) got an unexpected <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'out' parameter is not supported\"",
+        "msg = \"the 'out' parameter is not <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'mode' parameter is not supported\"",
+        "msg = \"the 'mode' parameter is <extra_id_0>"
+    ],
+    [
+        "expected = DatetimeIndex(dates, freq=None, name=\"idx\", dtype=idx.dtype)",
+        "expected = DatetimeIndex(dates, freq=None, <extra_id_0>"
+    ],
+    [
+        "locs = np.arange(start, n, step, dtype=np.intp)",
+        "locs = np.arange(start, n, <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot index DatetimeIndex with [Tt]imedelta\"",
+        "msg = \"Cannot index <extra_id_0>"
+    ],
+    [
+        "msg = \"Could not convert 'foo' to NumPy timedelta\"",
+        "msg = \"Could not convert 'foo' to NumPy <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"abbreviation w/o a number\"):",
+        "with pytest.raises(ValueError, match=\"abbreviation <extra_id_0>"
+    ],
+    [
+        "msg = \"index must be monotonic increasing or decreasing\"",
+        "msg = \"index must be monotonic increasing or <extra_id_0>"
+    ],
+    [
+        "self, box, side, year, expected, tz_aware_fixture",
+        "self, box, side, year, <extra_id_0>"
+    ],
+    [
+        "expected = np.array([\"foo\", \"NaT\", \"foo\"], dtype=object)",
+        "expected = np.array([\"foo\", \"NaT\", <extra_id_0>"
+    ],
+    [
+        "def test_dti_repr_time_midnight(self, dates, freq, expected_repr, unit):",
+        "def test_dti_repr_time_midnight(self, dates, <extra_id_0>"
+    ],
+    [
+        "for index, expected in zip(idxs, exp):",
+        "for index, expected in <extra_id_0>"
+    ],
+    [
+        "for rng, other, exp, exp_notsorted in [",
+        "for rng, other, exp, exp_notsorted <extra_id_0>"
+    ],
+    [
+        "cases = [klass(second.values) for klass in [np.array, Series, list]]",
+        "cases = [klass(second.values) for klass in [np.array, Series, <extra_id_0>"
+    ],
+    [
+        "for rng, other, expected in [",
+        "for rng, other, expected in <extra_id_0>"
+    ],
+    [
+        "if sort is None and len(other):",
+        "if sort is None and <extra_id_0>"
+    ],
+    [
+        "early_dr = date_range(start=early_start, end=early_end, tz=tz, freq=MonthEnd())",
+        "early_dr = date_range(start=early_start, end=early_end, tz=tz, <extra_id_0>"
+    ],
+    [
+        "late_dr = date_range(start=late_start, end=late_end, tz=tz, freq=MonthEnd())",
+        "late_dr = date_range(start=late_start, <extra_id_0>"
+    ],
+    [
+        "early_dr = date_range(start=early_start, end=early_end, tz=tz, freq=MonthEnd())",
+        "early_dr = date_range(start=early_start, end=early_end, <extra_id_0>"
+    ],
+    [
+        "late_dr = date_range(start=late_start, end=late_end, tz=tz, freq=MonthEnd())",
+        "late_dr = date_range(start=late_start, end=late_end, <extra_id_0>"
+    ],
+    [
+        "idx = Index([\"a\", \"b\", \"c\", \"d\"])",
+        "idx = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "monthly_group = df.groupby(lambda x: (x.year, x.month))",
+        "monthly_group = df.groupby(lambda <extra_id_0>"
+    ],
+    [
+        "reason=\"The inherited freq is incorrect bc dti.freq is incorrect \"",
+        "reason=\"The inherited freq is incorrect bc dti.freq is incorrect <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'axis' parameter is not supported\"",
+        "msg = \"the 'axis' parameter is <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(NullFrequencyError, match=\"Cannot shift with no freq\"):",
+        "with pytest.raises(NullFrequencyError, match=\"Cannot shift <extra_id_0>"
+    ],
+    [
+        "(\"ME\", \"<MonthEnd> is a non-fixed frequency\"),",
+        "(\"ME\", \"<MonthEnd> is <extra_id_0>"
+    ],
+    [
+        "msg = \"<MonthEnd> is a non-fixed frequency\"",
+        "msg = \"<MonthEnd> is <extra_id_0>"
+    ],
+    [
+        "def test_ceil_floor_edge(self, test_input, rounder, freq, expected):",
+        "def test_ceil_floor_edge(self, test_input, rounder, <extra_id_0>"
+    ],
+    [
+        "expected = Index([item] + list(idx), dtype=object)",
+        "expected = Index([item] + list(idx), <extra_id_0>"
+    ],
+    [
+        "for n, d, expected in cases:",
+        "for n, d, expected <extra_id_0>"
+    ],
+    [
+        "[lambda x: x, lambda x: x.to_pydatetime()],",
+        "[lambda x: x, <extra_id_0>"
+    ],
+    [
+        "[lambda x: x, lambda x: x.to_pydatetime()],",
+        "[lambda x: x, lambda x: <extra_id_0>"
+    ],
+    [
+        "msg = \"You must pass a freq argument as current index has none.\"",
+        "msg = \"You must pass a freq argument as <extra_id_0>"
+    ],
+    [
+        "f\"{freq} is not supported as period frequency\",",
+        "f\"{freq} is not supported as period <extra_id_0>"
+    ],
+    [
+        "msg = \"'w-mon' is deprecated and will be removed in a future version.\"",
+        "msg = \"'w-mon' is deprecated and will <extra_id_0>"
+    ],
+    [
+        "msg = \"'b' is deprecated and will be removed in a future version.\"",
+        "msg = \"'b' is deprecated and will be <extra_id_0>"
+    ],
+    [
+        "with pytest.raises((IndexError, ValueError), match=\"out of bounds\"):",
+        "with pytest.raises((IndexError, ValueError), <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Cannot infer dst time\"):",
+        "with pytest.raises(ValueError, match=\"Cannot <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Cannot infer dst time\"):",
+        "with pytest.raises(ValueError, match=\"Cannot infer <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(ValueError, match=\"Cannot infer dst time\"):",
+        "with pytest.raises(ValueError, match=\"Cannot infer <extra_id_0>"
+    ],
+    [
+        "TypeError, match=\"Already tz-aware, use tz_convert to convert\"",
+        "TypeError, match=\"Already tz-aware, use <extra_id_0>"
+    ],
+    [
+        "msg = \"Length of ambiguous bool-array must be the same size as vals\"",
+        "msg = \"Length of ambiguous bool-array must be the <extra_id_0>"
+    ],
+    [
+        "self, start_ts, tz, end_ts, shift, tz_type, unit",
+        "self, start_ts, tz, end_ts, <extra_id_0>"
+    ],
+    [
+        "msg = \"The provided timedelta will relocalize on a nonexistent time\"",
+        "msg = \"The provided timedelta will relocalize <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot use .astype to convert from timezone-aware\"",
+        "msg = \"Cannot use .astype <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot use .astype to convert from timezone-naive\"",
+        "msg = \"Cannot use .astype to convert <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot use .astype to convert from timezone-aware\"",
+        "msg = \"Cannot use .astype to <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot cast DatetimeIndex to dtype\"",
+        "msg = \"Cannot cast <extra_id_0>"
+    ],
+    [
+        "for x, stamp in zip(converted, rng):",
+        "for x, stamp <extra_id_0>"
+    ],
+    [
+        "for x, stamp in zip(converted, rng):",
+        "for x, stamp <extra_id_0>"
+    ],
+    [
+        "for x, stamp in zip(converted, rng):",
+        "for x, stamp in zip(converted, <extra_id_0>"
+    ],
+    [
+        "exp = Index([f(x) for x in rng])",
+        "exp = Index([f(x) for <extra_id_0>"
+    ],
+    [
+        "WASM, reason=\"tzset is available only on Unix-like systems, not WASM\"",
+        "WASM, reason=\"tzset is available only <extra_id_0>"
+    ],
+    [
+        "idx = DatetimeIndex(strdates, tz=prefix + \"US/Eastern\")",
+        "idx = DatetimeIndex(strdates, tz=prefix <extra_id_0>"
+    ],
+    [
+        "msg = \"value should be a 'Timedelta', 'NaT', or array of those. Got\"",
+        "msg = \"value should be a 'Timedelta', <extra_id_0>"
+    ],
+    [
+        "msg = \"TimedeltaArray/Index freq must be a Tick\"",
+        "msg = \"TimedeltaArray/Index freq must be a <extra_id_0>"
+    ],
+    [
+        "msg = \"Invalid type for timedelta scalar\"",
+        "msg = \"Invalid type <extra_id_0>"
+    ],
+    [
+        "assert \"inferred_freq\" not in getattr(result, \"_cache\", {})",
+        "assert \"inferred_freq\" not in getattr(result, \"_cache\", <extra_id_0>"
+    ],
+    [
+        "\"Inferred frequency .* from passed values does \"",
+        "\"Inferred frequency .* from passed values <extra_id_0>"
+    ],
+    [
+        "msg = \"periods must be an integer\"",
+        "msg = \"periods must <extra_id_0>"
+    ],
+    [
+        "msg = \"periods must be an integer, got foo\"",
+        "msg = \"periods must be an integer, got <extra_id_0>"
+    ],
+    [
+        "r\"TimedeltaIndex\\(\\.\\.\\.\\) must be called with a collection of some kind, \"",
+        "r\"TimedeltaIndex\\(\\.\\.\\.\\) must be called with a collection of some kind, <extra_id_0>"
+    ],
+    [
+        "\"Inferred frequency None from passed values does not conform to \"",
+        "\"Inferred frequency None from passed values does not conform to <extra_id_0>"
+    ],
+    [
+        "\"Of the four parameters: start, end, periods, and freq, exactly \"",
+        "\"Of the four parameters: start, end, periods, and freq, <extra_id_0>"
+    ],
+    [
+        "msg = \"with no precision is not allowed\"",
+        "msg = \"with no precision is <extra_id_0>"
+    ],
+    [
+        "msg = f\"'{unit_depr}' is deprecated and will be removed in a future version.\"",
+        "msg = f\"'{unit_depr}' is deprecated and will be removed in a future <extra_id_0>"
+    ],
+    [
+        "idx = Index([\"a\", \"b\", \"c\", \"d\"])",
+        "idx = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "msg = \"'TimedeltaIndex' object has no attribute '{}'\"",
+        "msg = \"'TimedeltaIndex' object <extra_id_0>"
+    ],
+    [
+        "msg = \"'d' is deprecated and will be removed in a future version.\"",
+        "msg = \"'d' is deprecated and will <extra_id_0>"
+    ],
+    [
+        "expected = Index([NaT._value, NaT._value] + tail, dtype=object, name=\"idx\")",
+        "expected = Index([NaT._value, NaT._value] + tail, dtype=object, <extra_id_0>"
+    ],
+    [
+        "expected = Index([ts, ts] + tail, dtype=object, name=\"idx\")",
+        "expected = Index([ts, ts] + <extra_id_0>"
+    ],
+    [
+        "msg = r\"take\\(\\) got an unexpected keyword argument 'foo'\"",
+        "msg = r\"take\\(\\) got an <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'out' parameter is not supported\"",
+        "msg = \"the 'out' parameter is <extra_id_0>"
+    ],
+    [
+        "msg = \"the 'mode' parameter is not supported\"",
+        "msg = \"the 'mode' parameter <extra_id_0>"
+    ],
+    [
+        "\"cannot do slice indexing on TimedeltaIndex with these \"",
+        "\"cannot do slice indexing on TimedeltaIndex with <extra_id_0>"
+    ],
+    [
+        "\"cannot do slice indexing on TimedeltaIndex with these \"",
+        "\"cannot do slice indexing on TimedeltaIndex with <extra_id_0>"
+    ],
+    [
+        "msg = \"'d' is deprecated and will be removed in a future version.\"",
+        "msg = \"'d' is deprecated and will be <extra_id_0>"
+    ],
+    [
+        "for v in [NaT, None, float(\"nan\"), np.nan]:",
+        "for v in [NaT, None, float(\"nan\"), <extra_id_0>"
+    ],
+    [
+        "for v in [NaT, None, float(\"nan\"), np.nan]:",
+        "for v in [NaT, None, <extra_id_0>"
+    ],
+    [
+        "msg = \"'d' is deprecated and will be removed in a future version.\"",
+        "msg = \"'d' is deprecated and will <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"depr_unit, unit\", [(\"H\", \"hour\"), (\"S\", \"second\")])",
+        "@pytest.mark.parametrize(\"depr_unit, unit\", [(\"H\", \"hour\"), <extra_id_0>"
+    ],
+    [
+        "f\"'{depr_unit}' is deprecated and will be removed in a future version.\"",
+        "f\"'{depr_unit}' is deprecated and will be removed in a future <extra_id_0>"
+    ],
+    [
+        "@pytest.mark.parametrize(\"unit\", [\"T\", \"t\", \"L\", \"l\", \"U\", \"u\", \"N\", \"n\"])",
+        "@pytest.mark.parametrize(\"unit\", [\"T\", \"t\", \"L\", \"l\", \"U\", \"u\", \"N\", <extra_id_0>"
+    ],
+    [
+        "msg = f\"invalid unit abbreviation: {unit}\"",
+        "msg = f\"invalid unit abbreviation: <extra_id_0>"
+    ],
+    [
+        "\"Of the four parameters: start, end, periods, and freq, \"",
+        "\"Of the four parameters: start, end, periods, and <extra_id_0>"
+    ],
+    [
+        "def test_timedelta_range_freq_divide_end(self, start, end, freq, expected_periods):",
+        "def test_timedelta_range_freq_divide_end(self, start, end, <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(NullFrequencyError, match=\"Cannot shift with no freq\"):",
+        "with pytest.raises(NullFrequencyError, match=\"Cannot shift with no <extra_id_0>"
+    ],
+    [
+        "for n, d, expected in cases:",
+        "for n, d, expected <extra_id_0>"
+    ],
+    [
+        "expected = Index([item] + list(idx), dtype=object, name=\"idx\")",
+        "expected = Index([item] + <extra_id_0>"
+    ],
+    [
+        "expected = Index([\"foo\"] + list(idx), dtype=object)",
+        "expected = Index([\"foo\"] + list(idx), <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(IndexError, match=\"loc must be an integer between\"):",
+        "with pytest.raises(IndexError, match=\"loc must be an integer <extra_id_0>"
+    ],
+    [
+        "with pytest.raises(IndexError, match=\"loc must be an integer between\"):",
+        "with pytest.raises(IndexError, match=\"loc must be <extra_id_0>"
+    ],
+    [
+        "[str(x) if x is not NaT else None for x in idx], name=\"idx\", dtype=\"str\"",
+        "[str(x) if x is not NaT else None for x <extra_id_0>"
+    ],
+    [
+        "expected = Index([str(x) for x in idx], name=\"idx\", dtype=object)",
+        "expected = Index([str(x) for x in <extra_id_0>"
+    ],
+    [
+        "\"Supported resolutions are 's', 'ms', 'us', 'ns'\"",
+        "\"Supported resolutions are 's', 'ms', <extra_id_0>"
+    ],
+    [
+        "\"Supported resolutions are 's', 'ms', 'us', 'ns'\"",
+        "\"Supported resolutions are 's', 'ms', 'us', <extra_id_0>"
+    ],
+    [
+        "msg = \"Cannot cast TimedeltaIndex to dtype\"",
+        "msg = \"Cannot cast <extra_id_0>"
+    ],
+    [
+        "return val is not pd.NA and np.isnan(val)",
+        "return val is not pd.NA <extra_id_0>"
+    ],
+    [
+        "if dtype.na_value is pd.NA and null is pd.NA:",
+        "if dtype.na_value is pd.NA and <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", \"c\"], dtype=any_string_dtype)",
+        "index = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", \"c\"], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", \"c\"], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"b\", \"c\"], <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", \"a\"], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", \"c\"], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", nulls_fixture], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "actual = index.get_indexer([\"a\", \"b\", \"c\", \"d\"], method=method)",
+        "actual = index.get_indexer([\"a\", \"b\", <extra_id_0>"
+    ],
+    [
+        "\"operation 'sub' not supported for dtype 'str\",",
+        "\"operation 'sub' not supported <extra_id_0>"
+    ],
+    [
+        "r\"unsupported operand type\\(s\\) for -: 'str' and 'str'\",",
+        "r\"unsupported operand type\\(s\\) for -: 'str' <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", null], dtype=any_string_dtype)",
+        "index = Index([\"a\", <extra_id_0>"
+    ],
+    [
+        "elif any_string_dtype == \"string\" and not _equivalent_na(",
+        "elif any_string_dtype == \"string\" and <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"b\", null], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"b\", null], <extra_id_0>"
+    ],
+    [
+        "elif any_string_dtype == \"string\" and not _equivalent_na(",
+        "elif any_string_dtype == \"string\" and not <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", null, \"b\", null], dtype=any_string_dtype)",
+        "index = Index([\"a\", null, \"b\", <extra_id_0>"
+    ],
+    [
+        "elif any_string_dtype == \"string\" and not _equivalent_na(",
+        "elif any_string_dtype == \"string\" and not <extra_id_0>"
+    ],
+    [
+        "s_start, s_stop = index.slice_locs(in_slice.start, in_slice.stop, in_slice.step)",
+        "s_start, s_stop = <extra_id_0>"
+    ],
+    [
+        "result = index[s_start : s_stop : in_slice.step]",
+        "result = index[s_start : s_stop : <extra_id_0>"
+    ],
+    [
+        "index = Index([\"a\", \"a\", \"b\", \"c\", \"d\", \"d\"], dtype=any_string_dtype)",
+        "index = Index([\"a\", \"a\", \"b\", \"c\", \"d\", \"d\"], <extra_id_0>"
+    ],
+    [
+        "def test_drop_duplicates(self, keep, expected, index, idx):",
+        "def test_drop_duplicates(self, keep, <extra_id_0>"
+    ],
+    [
+        "for obj in [pi, pi._engine, dti, dti._engine, tdi, tdi._engine]:",
+        "for obj in [pi, pi._engine, dti, dti._engine, tdi, <extra_id_0>"
+    ],
+    [
+        "obj: Any, path: FilePath | ReadPickleBuffer | None = None",
+        "obj: Any, path: FilePath | ReadPickleBuffer | <extra_id_0>"
+    ],
+    [
+        "STRING_DTYPES: list[Dtype] = [str, \"str\", \"U\"]",
+        "STRING_DTYPES: list[Dtype] = [str, \"str\", <extra_id_0>"
+    ],
+    [
+        "ENDIAN = {\"little\": \"<\", \"big\": \">\"}[byteorder]",
+        "ENDIAN = {\"little\": \"<\", <extra_id_0>"
+    ],
+    [
+        "NULL_OBJECTS = [None, np.nan, pd.NaT, float(\"nan\"), pd.NA, Decimal(\"NaN\")]",
+        "NULL_OBJECTS = [None, np.nan, pd.NaT, float(\"nan\"), <extra_id_0>"
+    ],
+    [
+        "for unit in [\"s\", \"ms\", \"us\", \"ns\"]",
+        "for unit in [\"s\", \"ms\", <extra_id_0>"
+    ],
+    [
+        "for tz in [None, \"UTC\", \"US/Pacific\", \"US/Eastern\"]",
+        "for tz in [None, \"UTC\", \"US/Pacific\", <extra_id_0>"
+    ],
+    [
+        "TIMEDELTA_PYARROW_DTYPES = [pa.duration(unit) for unit in [\"s\", \"ms\", \"us\", \"ns\"]]",
+        "TIMEDELTA_PYARROW_DTYPES = [pa.duration(unit) for unit in [\"s\", \"ms\", \"us\", <extra_id_0>"
+    ],
+    [
+        "comparison_dunder_methods = [\"__eq__\", \"__ne__\", \"__le__\", \"__lt__\", \"__ge__\", \"__gt__\"]",
+        "comparison_dunder_methods = [\"__eq__\", \"__ne__\", \"__le__\", \"__lt__\", \"__ge__\", <extra_id_0>"
+    ],
+    [
+        "def box_expected(expected, box_cls, transpose: bool = True):",
+        "def box_expected(expected, box_cls, transpose: bool = <extra_id_0>"
+    ],
+    [
+        "expected_warning: type[Warning] | bool | tuple[type[Warning], ...] | None = Warning,",
+        "expected_warning: type[Warning] | bool | tuple[type[Warning], ...] <extra_id_0>"
+    ],
+    [
+        "\"error\", \"ignore\", \"always\", \"default\", \"module\", \"once\"",
+        "\"error\", \"ignore\", \"always\", <extra_id_0>"
+    ],
+    [
+        "match: str | tuple[str | None, ...] | None = None,",
+        "match: str | tuple[str | None, <extra_id_0>"
+    ],
+    [
+        "raise AssertionError(f\"Did not see expected warning of class {warning_name!r}\")",
+        "raise AssertionError(f\"Did not see expected warning of <extra_id_0>"
+    ],
+    [
+        "f\"Did not see warning {warning_name!r} \"",
+        "f\"Did not see <extra_id_0>"
+    ],
+    [
+        "f\"matching '{match}'. The emitted warning messages are \"",
+        "f\"matching '{match}'. The emitted warning messages <extra_id_0>"
+    ],
+    [
+        "expected_warning: type[Warning] | bool | tuple[type[Warning], ...] | None,",
+        "expected_warning: type[Warning] | bool | <extra_id_0>"
+    ],
+    [
+        "\"Warning not set with correct stacklevel. \"",
+        "\"Warning not set with correct stacklevel. <extra_id_0>"
+    ],
+    [
+        "f\"File where warning is raised: {actual_warning.filename} != \"",
+        "f\"File where warning is raised: <extra_id_0>"
+    ],
+    [
+        "check_dtype: bool | Literal[\"equiv\"] = \"equiv\",",
+        "check_dtype: bool | Literal[\"equiv\"] = <extra_id_0>"
+    ],
+    [
+        "path: FilePath | BaseBuffer, compression: CompressionOptions",
+        "path: FilePath | BaseBuffer, compression: <extra_id_0>"
+    ],
+    [
+        "xlabelsize: int | None = None,",
+        "xlabelsize: int | None = <extra_id_0>"
+    ],
+    [
+        "xrot: float | None = None,",
+        "xrot: float | <extra_id_0>"
+    ],
+    [
+        "ylabelsize: int | None = None,",
+        "ylabelsize: int | None <extra_id_0>"
+    ],
+    [
+        "yrot: float | None = None,",
+        "yrot: float | None = <extra_id_0>"
+    ],
+    [
+        "figsize: tuple[int, int] | None = None,",
+        "figsize: tuple[int, int] | None <extra_id_0>"
+    ],
+    [
+        "backend: str | None = None,",
+        "backend: str | None = <extra_id_0>"
+    ],
+    [
+        "def table(ax: Axes, data: DataFrame | Series, **kwargs) -> Table:",
+        "def table(ax: Axes, data: DataFrame | Series, **kwargs) <extra_id_0>"
+    ],
+    [
+        "figsize: tuple[float, float] | None = None,",
+        "figsize: tuple[float, float] | None <extra_id_0>"
+    ],
+    [
+        "fig, axes = create_subplots(naxes=naxes, figsize=figsize, ax=ax, squeeze=False)",
+        "fig, axes = create_subplots(naxes=naxes, figsize=figsize, ax=ax, <extra_id_0>"
+    ],
+    [
+        "boundaries_list.append((rmin_ - rdelta_ext, rmax_ + rdelta_ext))",
+        "boundaries_list.append((rmin_ - rdelta_ext, rmax_ + <extra_id_0>"
+    ],
+    [
+        "ax: Axes | None = None,",
+        "ax: Axes | <extra_id_0>"
+    ],
+    [
+        "return (series - a) / (b - a)",
+        "return (series - a) / <extra_id_0>"
+    ],
+    [
+        "for xy, name in zip(s, df.columns):",
+        "for xy, name in <extra_id_0>"
+    ],
+    [
+        "ax: Axes | None = None,",
+        "ax: Axes | None <extra_id_0>"
+    ],
+    [
+        "fig: Figure | None = None,",
+        "fig: Figure | None = <extra_id_0>"
+    ],
+    [
+        "samplings = [random.sample(data, size) for _ in range(samples)]",
+        "samplings = [random.sample(data, size) for _ in <extra_id_0>"
+    ],
+    [
+        "means = np.array([np.mean(sampling) for sampling in samplings])",
+        "means = np.array([np.mean(sampling) for sampling in <extra_id_0>"
+    ],
+    [
+        "medians = np.array([np.median(sampling) for sampling in samplings])",
+        "medians = np.array([np.median(sampling) for sampling in <extra_id_0>"
+    ],
+    [
+        "ax: Axes | None = None,",
+        "ax: Axes | <extra_id_0>"
+    ],
+    [
+        "raise ValueError(\"Columns must be numeric to be used as xticks\")",
+        "raise ValueError(\"Columns must be numeric <extra_id_0>"
+    ],
+    [
+        "raise ValueError(\"xticks specified must be numeric\")",
+        "raise ValueError(\"xticks specified must be <extra_id_0>"
+    ],
+    [
+        "raise ValueError(\"Length of xticks must match number of columns\")",
+        "raise ValueError(\"Length of xticks must match number of <extra_id_0>"
+    ],
+    [
+        "def autocorrelation_plot(series: Series, ax: Axes | None = None, **kwds) -> Axes:",
+        "def autocorrelation_plot(series: Series, ax: Axes | None <extra_id_0>"
+    ],
+    [
+        "y = [r(loc) for loc in x]",
+        "y = [r(loc) for <extra_id_0>"
+    ],
+    [
+        "def _adjust_bins(self, bins: int | np.ndarray | list[np.ndarray]):",
+        "def _adjust_bins(self, bins: int | np.ndarray | <extra_id_0>"
+    ],
+    [
+        "bins = [self._calculate_bins(group, bins) for key, group in grouped]",
+        "bins = [self._calculate_bins(group, bins) for key, group in <extra_id_0>"
+    ],
+    [
+        "def _calculate_bins(self, data: Series | DataFrame, bins) -> np.ndarray:",
+        "def _calculate_bins(self, data: Series | <extra_id_0>"
+    ],
+    [
+        "\"weights must have the same shape as data, \"",
+        "\"weights must have the same shape as data, <extra_id_0>"
+    ],
+    [
+        "def _post_plot_logic(self, ax: Axes, data) -> None:",
+        "def _post_plot_logic(self, ax: Axes, <extra_id_0>"
+    ],
+    [
+        "\"Frequency\" if self.xlabel is None else self.xlabel",
+        "\"Frequency\" if self.xlabel is None else <extra_id_0>"
+    ],
+    [
+        "\"Frequency\" if self.ylabel is None else self.ylabel",
+        "\"Frequency\" if self.ylabel is None else <extra_id_0>"
+    ],
+    [
+        "self, data, bw_method=None, ind=None, *, weights=None, **kwargs",
+        "self, data, bw_method=None, ind=None, <extra_id_0>"
+    ],
+    [
+        "stacking_id: int | None = None,",
+        "stacking_id: int | <extra_id_0>"
+    ],
+    [
+        "lines = MPLPlot._plot(ax, ind, y, style=style, **kwds)",
+        "lines = MPLPlot._plot(ax, ind, y, style=style, <extra_id_0>"
+    ],
+    [
+        "def _make_plot_keywords(self, kwds: dict[str, Any], y: np.ndarray) -> None:",
+        "def _make_plot_keywords(self, kwds: dict[str, Any], <extra_id_0>"
+    ],
+    [
+        "def _post_plot_logic(self, ax: Axes, data) -> None:",
+        "def _post_plot_logic(self, ax: Axes, data) -> <extra_id_0>"
+    ],
+    [
+        "figsize: tuple[float, float] | None = None,",
+        "figsize: tuple[float, float] | None <extra_id_0>"
+    ],
+    [
+        "\"figsize='default' is no longer supported. \"",
+        "\"figsize='default' is no longer supported. <extra_id_0>"
+    ],
+    [
+        "\"Specify figure size by tuple instead\"",
+        "\"Specify figure size by tuple <extra_id_0>"
+    ],
+    [
+        "naxes=naxes, figsize=figsize, sharex=sharex, sharey=sharey, ax=ax, layout=layout",
+        "naxes=naxes, figsize=figsize, sharex=sharex, sharey=sharey, <extra_id_0>"
+    ],
+    [
+        "for ax, (key, group) in zip(flatten_axes(axes), grouped):",
+        "for ax, (key, group) in zip(flatten_axes(axes), <extra_id_0>"
+    ],
+    [
+        "figsize: tuple[float, float] | None = None,",
+        "figsize: tuple[float, float] | None = <extra_id_0>"
+    ],
+    [
+        "xlabelsize: int | None = None,",
+        "xlabelsize: int | <extra_id_0>"
+    ],
+    [
+        "ylabelsize: int | None = None,",
+        "ylabelsize: int | None = <extra_id_0>"
+    ],
+    [
+        "def _set_ticklabels(ax: Axes, labels: list[str], is_vertical: bool, **kwargs) -> None:",
+        "def _set_ticklabels(ax: Axes, labels: list[str], is_vertical: bool, <extra_id_0>"
+    ],
+    [
+        "from pandas._typing import MatplotlibColor as Color",
+        "from pandas._typing import MatplotlibColor as <extra_id_0>"
+    ],
+    [
+        "colormap: Colormap | None = ...,",
+        "colormap: Colormap | None <extra_id_0>"
+    ],
+    [
+        "colormap: Colormap | None = ...,",
+        "colormap: Colormap | None <extra_id_0>"
+    ],
+    [
+        "color: Color | Sequence[Color] | None = ...,",
+        "color: Color | Sequence[Color] <extra_id_0>"
+    ],
+    [
+        "colormap: Colormap | None = ...,",
+        "colormap: Colormap | None = <extra_id_0>"
+    ],
+    [
+        "color: dict[str, Color] | Color | Sequence[Color] | None = ...,",
+        "color: dict[str, Color] | Color | Sequence[Color] | None <extra_id_0>"
+    ],
+    [
+        ") -> dict[str, Color] | list[Color]: ...",
+        ") -> dict[str, Color] | <extra_id_0>"
+    ],
+    [
+        "colormap: Colormap | None = None,",
+        "colormap: Colormap | None <extra_id_0>"
+    ],
+    [
+        "color: dict[str, Color] | Color | Sequence[Color] | None = None,",
+        "color: dict[str, Color] | Color | <extra_id_0>"
+    ],
+    [
+        ") -> dict[str, Color] | list[Color]:",
+        ") -> dict[str, Color] <extra_id_0>"
+    ],
+    [
+        "def _get_cmap_instance(colormap: str | Colormap) -> Colormap:",
+        "def _get_cmap_instance(colormap: str | Colormap) -> <extra_id_0>"
+    ],
+    [
+        "def _is_single_color(color: Color | Collection[Color]) -> bool:",
+        "def _is_single_color(color: Color | <extra_id_0>"
+    ],
+    [
+        "and all(isinstance(x, (int, float)) for x in color)",
+        "and all(isinstance(x, (int, float)) for <extra_id_0>"
+    ],
+    [
+        "def _get_colors_from_color_type(color_type: str, num_colors: int) -> list[Color]:",
+        "def _get_colors_from_color_type(color_type: str, num_colors: int) -> <extra_id_0>"
+    ],
+    [
+        "colors = [c[\"color\"] for c in mpl.rcParams[\"axes.prop_cycle\"]]",
+        "colors = [c[\"color\"] for <extra_id_0>"
+    ],
+    [
+        "def format_date_labels(ax: Axes, rot) -> None:",
+        "def format_date_labels(ax: Axes, rot) <extra_id_0>"
+    ],
+    [
+        "ax, data: DataFrame | Series, rowLabels=None, colLabels=None, **kwargs",
+        "ax, data: DataFrame | Series, <extra_id_0>"
+    ],
+    [
+        "raise ValueError(\"Input data must be DataFrame or Series\")",
+        "raise ValueError(\"Input data must be DataFrame or <extra_id_0>"
+    ],
+    [
+        "layout: tuple[int, int] | None = None,",
+        "layout: tuple[int, int] | None <extra_id_0>"
+    ],
+    [
+        "raise ValueError(\"Layout must be a tuple of (rows, columns)\")",
+        "raise ValueError(\"Layout must be a tuple <extra_id_0>"
+    ],
+    [
+        "layout = (ceil(nplots / ncols), ncols)",
+        "layout = (ceil(nplots / ncols), <extra_id_0>"
+    ],
+    [
+        "layout = (nrows, ceil(nplots / nrows))",
+        "layout = (nrows, <extra_id_0>"
+    ],
+    [
+        "msg = \"At least one dimension of layout must be positive\"",
+        "msg = \"At least one dimension <extra_id_0>"
+    ],
+    [
+        "if nrows * ncols < nplots:",
+        "if nrows * ncols < <extra_id_0>"
+    ],
+    [
+        "f\"Layout of {nrows}x{ncols} must be larger than required size {nplots}\"",
+        "f\"Layout of {nrows}x{ncols} must be larger than <extra_id_0>"
+    ],
+    [
+        "estimate = (nmax - nmin) / (self._get_unit() * self._get_interval())",
+        "estimate = (nmax - nmin) / (self._get_unit() <extra_id_0>"
+    ],
+    [
+        "f\"{estimate:d} ticks from {dmin} to {dmax}: exceeds Locator.MAXTICKS\"",
+        "f\"{estimate:d} ticks from {dmin} <extra_id_0>"
+    ],
+    [
+        "all_dates = date_range(start=st, end=ed, freq=freq, tz=tz).astype(object)",
+        "all_dates = date_range(start=st, end=ed, freq=freq, <extra_id_0>"
+    ],
+    [
+        "format = np.compress(info[\"min\"] & np.logical_not(info[\"maj\"]), info)",
+        "format = np.compress(info[\"min\"] & np.logical_not(info[\"maj\"]), <extra_id_0>"
+    ],
+    [
+        "self.formatdict = {x: f for (x, _, _, f) in format}",
+        "self.formatdict = {x: f for (x, <extra_id_0>"
+    ],
+    [
+        "def orientation(self) -> str | None:",
+        "def orientation(self) -> str | <extra_id_0>"
+    ],
+    [
+        "by: IndexLabel | None = None,",
+        "by: IndexLabel | <extra_id_0>"
+    ],
+    [
+        "subplots: bool | Sequence[Sequence[str]] = False,",
+        "subplots: bool | Sequence[Sequence[str]] <extra_id_0>"
+    ],
+    [
+        "sharex: bool | None = None,",
+        "sharex: bool | <extra_id_0>"
+    ],
+    [
+        "figsize: tuple[float, float] | None = None,",
+        "figsize: tuple[float, float] | None <extra_id_0>"
+    ],
+    [
+        "legend: bool | str = True,",
+        "legend: bool | str <extra_id_0>"
+    ],
+    [
+        "xlabel: Hashable | None = None,",
+        "xlabel: Hashable | <extra_id_0>"
+    ],
+    [
+        "ylabel: Hashable | None = None,",
+        "ylabel: Hashable | None = <extra_id_0>"
+    ],
+    [
+        "fontsize: int | None = None,",
+        "fontsize: int | <extra_id_0>"
+    ],
+    [
+        "secondary_y: bool | tuple | list | np.ndarray = False,",
+        "secondary_y: bool | tuple | list | np.ndarray <extra_id_0>"
+    ],
+    [
+        "column: IndexLabel | None = None,",
+        "column: IndexLabel | None <extra_id_0>"
+    ],
+    [
+        "logx: bool | None | Literal[\"sym\"] = False,",
+        "logx: bool | None | Literal[\"sym\"] = <extra_id_0>"
+    ],
+    [
+        "logy: bool | None | Literal[\"sym\"] = False,",
+        "logy: bool | None | Literal[\"sym\"] <extra_id_0>"
+    ],
+    [
+        "loglog: bool | None | Literal[\"sym\"] = False,",
+        "loglog: bool | None | Literal[\"sym\"] = <extra_id_0>"
+    ],
+    [
+        "label: Hashable | None = None,",
+        "label: Hashable | None = <extra_id_0>"
+    ],
+    [
+        "col for col in data.columns if is_numeric_dtype(data[col])",
+        "col for col in data.columns if <extra_id_0>"
+    ],
+    [
+        "if col not in self.by and is_numeric_dtype(data[col])",
+        "if col not in <extra_id_0>"
+    ],
+    [
+        "if self.by is not None and self._kind == \"hist\":",
+        "if self.by is not None and self._kind == <extra_id_0>"
+    ],
+    [
+        "grid = False if secondary_y else mpl.rcParams[\"axes.grid\"]",
+        "grid = False if secondary_y else <extra_id_0>"
+    ],
+    [
+        "xerr, data = type(self)._parse_errorbars(\"xerr\", xerr, data, nseries)",
+        "xerr, data = type(self)._parse_errorbars(\"xerr\", xerr, data, <extra_id_0>"
+    ],
+    [
+        "yerr, data = type(self)._parse_errorbars(\"yerr\", yerr, data, nseries)",
+        "yerr, data = type(self)._parse_errorbars(\"yerr\", yerr, data, <extra_id_0>"
+    ],
+    [
+        "self.errors = {\"xerr\": xerr, \"yerr\": yerr}",
+        "self.errors = {\"xerr\": <extra_id_0>"
+    ],
+    [
+        "if not isinstance(secondary_y, (bool, tuple, list, np.ndarray, ABCIndex)):",
+        "if not isinstance(secondary_y, (bool, <extra_id_0>"
+    ],
+    [
+        "if \"cmap\" in kwds and colormap:",
+        "if \"cmap\" in kwds and <extra_id_0>"
+    ],
+    [
+        "raise TypeError(\"Only specify one of `cmap` and `colormap`.\")",
+        "raise TypeError(\"Only specify one of `cmap` <extra_id_0>"
+    ],
+    [
+        "def _validate_sharex(sharex: bool | None, ax, by) -> bool:",
+        "def _validate_sharex(sharex: bool | None, <extra_id_0>"
+    ],
+    [
+        "if ax is None and by is None:",
+        "if ax is None <extra_id_0>"
+    ],
+    [
+        "raise TypeError(\"sharex must be a bool or None\")",
+        "raise TypeError(\"sharex must be <extra_id_0>"
+    ],
+    [
+        "value: bool | None | Literal[\"sym\"],",
+        "value: bool | None | <extra_id_0>"
+    ],
+    [
+        ") -> bool | None | Literal[\"sym\"]:",
+        ") -> bool | None <extra_id_0>"
+    ],
+    [
+        "or (isinstance(value, str) and value == \"sym\")",
+        "or (isinstance(value, str) and value <extra_id_0>"
+    ],
+    [
+        "f\"keyword '{kwd}' should be bool, None, or 'sym', not '{value}'\"",
+        "f\"keyword '{kwd}' should be bool, None, <extra_id_0>"
+    ],
+    [
+        "subplots: bool | Sequence[Sequence[str]], data: Series | DataFrame, kind: str",
+        "subplots: bool | Sequence[Sequence[str]], data: Series <extra_id_0>"
+    ],
+    [
+        ") -> bool | list[tuple[int, ...]]:",
+        ") -> bool | <extra_id_0>"
+    ],
+    [
+        "def _maybe_right_yaxis(self, ax: Axes, axes_num: int) -> Axes:",
+        "def _maybe_right_yaxis(self, ax: Axes, axes_num: int) <extra_id_0>"
+    ],
+    [
+        "if self.logy is True or self.loglog is True:",
+        "if self.logy is True <extra_id_0>"
+    ],
+    [
+        "elif self.logy == \"sym\" or self.loglog == \"sym\":",
+        "elif self.logy == \"sym\" or <extra_id_0>"
+    ],
+    [
+        "self.nseries if isinstance(self.subplots, bool) else len(self.subplots)",
+        "self.nseries if isinstance(self.subplots, bool) else <extra_id_0>"
+    ],
+    [
+        "if self.logx is True or self.loglog is True:",
+        "if self.logx is True <extra_id_0>"
+    ],
+    [
+        "elif self.logx == \"sym\" or self.loglog == \"sym\":",
+        "elif self.logx == \"sym\" or self.loglog <extra_id_0>"
+    ],
+    [
+        "if self.logy is True or self.loglog is True:",
+        "if self.logy is True or self.loglog <extra_id_0>"
+    ],
+    [
+        "elif self.logy == \"sym\" or self.loglog == \"sym\":",
+        "elif self.logy == \"sym\" or self.loglog == <extra_id_0>"
+    ],
+    [
+        "if self.orientation == \"vertical\" or self.orientation is None:",
+        "if self.orientation == \"vertical\" <extra_id_0>"
+    ],
+    [
+        "def _post_plot_logic(self, ax: Axes, data) -> None:",
+        "def _post_plot_logic(self, ax: Axes, data) -> <extra_id_0>"
+    ],
+    [
+        "\"The length of `title` must equal the number \"",
+        "\"The length of `title` must <extra_id_0>"
+    ],
+    [
+        "\"of columns if using `title` of type `list` \"",
+        "\"of columns if using `title` <extra_id_0>"
+    ],
+    [
+        "for ax, title in zip(self.axes, self.title):",
+        "for ax, title <extra_id_0>"
+    ],
+    [
+        "\"Using `title` of type `list` is not supported \"",
+        "\"Using `title` of type `list` is not <extra_id_0>"
+    ],
+    [
+        "axis: Axis, rot=None, fontsize: int | None = None",
+        "axis: Axis, rot=None, fontsize: int | None = <extra_id_0>"
+    ],
+    [
+        "def _get_index_name(self) -> str | None:",
+        "def _get_index_name(self) -> str | <extra_id_0>"
+    ],
+    [
+        "name = \",\".join([pprint_thing(x) for x in name])",
+        "name = \",\".join([pprint_thing(x) for <extra_id_0>"
+    ],
+    [
+        "def _get_ax_layer(cls, ax, primary: bool = True):",
+        "def _get_ax_layer(cls, ax, primary: bool <extra_id_0>"
+    ],
+    [
+        "def _get_ax(self, i: int) -> Axes:",
+        "def _get_ax(self, i: int) -> <extra_id_0>"
+    ],
+    [
+        "def on_right(self, i: int) -> bool:",
+        "def on_right(self, i: int) <extra_id_0>"
+    ],
+    [
+        "if isinstance(self.secondary_y, (tuple, list, np.ndarray, ABCIndex)):",
+        "if isinstance(self.secondary_y, (tuple, list, <extra_id_0>"
+    ],
+    [
+        "self, colors, kwds: dict[str, Any], col_num: int, label: str",
+        "self, colors, kwds: dict[str, Any], col_num: <extra_id_0>"
+    ],
+    [
+        "data: DataFrame, kind: str = \"hist\"",
+        "data: DataFrame, kind: <extra_id_0>"
+    ],
+    [
+        ") -> dict[Hashable, DataFrame | Series]:",
+        ") -> dict[Hashable, DataFrame | <extra_id_0>"
+    ],
+    [
+        "def maybe_resample(series: Series, ax: Axes, kwargs: dict[str, Any]):",
+        "def maybe_resample(series: Series, ax: Axes, kwargs: dict[str, <extra_id_0>"
+    ],
+    [
+        "\"'how' is not a valid keyword for plotting functions. If plotting \"",
+        "\"'how' is not a valid keyword for plotting functions. If <extra_id_0>"
+    ],
+    [
+        "\"multiple objects on shared axes, resample manually first.\"",
+        "\"multiple objects on shared <extra_id_0>"
+    ],
+    [
+        "raise ValueError(\"Cannot use dynamic axis without frequency info\")",
+        "raise ValueError(\"Cannot use dynamic <extra_id_0>"
+    ],
+    [
+        "if ax_freq is not None and freq != ax_freq:",
+        "if ax_freq is not None and freq <extra_id_0>"
+    ],
+    [
+        "elif is_subperiod(freq, ax_freq) or _is_sub(freq, ax_freq):",
+        "elif is_subperiod(freq, ax_freq) or _is_sub(freq, <extra_id_0>"
+    ],
+    [
+        "def _upsample_others(ax: Axes, freq: BaseOffset, kwargs: dict[str, Any]) -> None:",
+        "def _upsample_others(ax: Axes, freq: BaseOffset, kwargs: <extra_id_0>"
+    ],
+    [
+        "title: str | None = legend.get_title().get_text()",
+        "title: str | None = <extra_id_0>"
+    ],
+    [
+        "for series, plotf, kwds in data:",
+        "for series, plotf, kwds in <extra_id_0>"
+    ],
+    [
+        "def decorate_axes(ax: Axes, freq: BaseOffset) -> None:",
+        "def decorate_axes(ax: Axes, freq: BaseOffset) -> <extra_id_0>"
+    ],
+    [
+        "from pandas.core.internals.managers import BlockManager as _BlockManager",
+        "from pandas.core.internals.managers import <extra_id_0>"
+    ],
+    [
+        "blocks: list[tuple[ArrayLike, np.ndarray]], index: Index, columns: Index",
+        "blocks: list[tuple[ArrayLike, np.ndarray]], index: <extra_id_0>"
+    ],
+    [
+        "\"A value is trying to be set on a copy of a DataFrame or Series \"",
+        "\"A value is trying to be set on a copy of a <extra_id_0>"
+    ],
+    [
+        "\"When using the Copy-on-Write mode, such chained assignment never works \"",
+        "\"When using the Copy-on-Write mode, such chained <extra_id_0>"
+    ],
+    [
+        "\"to update the original DataFrame or Series, because the intermediate \"",
+        "\"to update the original DataFrame or <extra_id_0>"
+    ],
+    [
+        "\"object on which we are setting values always behaves as a copy.\\n\\n\"",
+        "\"object on which we are setting values <extra_id_0>"
+    ],
+    [
+        "\"Try using '.loc[row_indexer, col_indexer] = value' instead, to perform \"",
+        "\"Try using '.loc[row_indexer, col_indexer] = value' instead, to perform <extra_id_0>"
+    ],
+    [
+        "\"the assignment in a single step.\\n\\n\"",
+        "\"the assignment in a single <extra_id_0>"
+    ],
+    [
+        "\"See the caveats in the documentation: \"",
+        "\"See the caveats in <extra_id_0>"
+    ],
+    [
+        "\"A value is trying to be set on a copy of a DataFrame or Series \"",
+        "\"A value is trying to be set on a copy of a DataFrame <extra_id_0>"
+    ],
+    [
+        "\"through chained assignment using an inplace method.\\n\"",
+        "\"through chained assignment using an <extra_id_0>"
+    ],
+    [
+        "\"When using the Copy-on-Write mode, such inplace method never works \"",
+        "\"When using the Copy-on-Write mode, such inplace method never <extra_id_0>"
+    ],
+    [
+        "\"to update the original DataFrame or Series, because the intermediate \"",
+        "\"to update the original DataFrame or Series, because the intermediate <extra_id_0>"
+    ],
+    [
+        "\"object on which we are setting values always behaves as a copy.\\n\\n\"",
+        "\"object on which we are setting <extra_id_0>"
+    ],
+    [
+        "\"For example, when doing 'df[col].method(value, inplace=True)', try \"",
+        "\"For example, when doing 'df[col].method(value, inplace=True)', try <extra_id_0>"
+    ],
+    [
+        "\"using 'df.method({col: value}, inplace=True)' instead, to perform \"",
+        "\"using 'df.method({col: value}, inplace=True)' <extra_id_0>"
+    ],
+    [
+        "\"the operation inplace on the original object.\\n\\n\"",
+        "\"the operation inplace on the original <extra_id_0>"
+    ],
+    [
+        "def __init__(self, d: dict[str, Any], prefix: str = \"\") -> None:",
+        "def __init__(self, d: dict[str, Any], prefix: <extra_id_0>"
+    ],
+    [
+        "def __setattr__(self, key: str, val: Any) -> None:",
+        "def __setattr__(self, key: str, val: Any) <extra_id_0>"
+    ],
+    [
+        "if key in self.d and not isinstance(self.d[key], dict):",
+        "if key in self.d and not isinstance(self.d[key], <extra_id_0>"
+    ],
+    [
+        "raise OptionError(\"You can only set the value of existing options\")",
+        "raise OptionError(\"You can only set the value <extra_id_0>"
+    ],
+    [
+        "raise OptionError(\"No such option\") from err",
+        "raise OptionError(\"No such <extra_id_0>"
+    ],
+    [
+        "s += f\"\\n    [default: {o.defval}] [currently: {get_option(k)}]\"",
+        "s += f\"\\n [default: {o.defval}] [currently: <extra_id_0>"
+    ],
+    [
+        "s += f\", use `{rkey}` instead.\"",
+        "s += f\", use <extra_id_0>"
+    ]
+]
