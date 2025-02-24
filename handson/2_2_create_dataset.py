@@ -36,7 +36,7 @@ def create_dataset(collect_python_file):
                         # ランダムにトークンを削除したターゲットデータを作成
                         num_tokens_to_remove = random.randint(1, len(tokens) // 2)  # 削除するトークンの数をランダムに決定
                         target_tokens = tokens[:-num_tokens_to_remove]  # 最後から削除
-                        target_line = ' '.join(target_tokens)
+                        target_line = ' '.join(target_tokens) + ' <extra_id_0>'  # 最後尾にスペースを一つ入れ、<extra_id_0> を追加
                         target_data.append(target_line)
         except UnicodeDecodeError:
             print(f"Skipping file: {file_path} due to encoding error.")
